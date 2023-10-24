@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Aves I. basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -63.642670660472731, 15.704662290165427 ], [ -63.636717381666742, 15.71061556897142 ], [ -63.633740742263747, 15.692755732553444 ], [ -63.642670660472731, 15.704662290165427 ] ] ] ] } }
+]
+}

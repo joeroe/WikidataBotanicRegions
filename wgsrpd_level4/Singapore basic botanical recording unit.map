@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Singapore basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 103.99053955078125, 1.383290767669678 ], [ 103.844970703125, 1.259166479110718 ], [ 103.64080810546875, 1.315555095672607 ], [ 103.713592529296875, 1.429443836212158 ], [ 103.99053955078125, 1.383290767669678 ] ] ] ] } }
+]
+}

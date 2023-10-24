@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Macau basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 113.531661987304688, 22.194736480712891 ], [ 113.536102294921875, 22.211662292480469 ], [ 113.554428100585938, 22.212730407714844 ], [ 113.552467346191406, 22.183052062988281 ], [ 113.531661987304688, 22.194736480712891 ] ] ] ] } }
+]
+}

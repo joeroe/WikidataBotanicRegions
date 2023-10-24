@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Martinique basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -60.86083984375, 14.402776718139648 ], [ -61.033889770507812, 14.465831756591797 ], [ -61.174728393554688, 14.876943588256836 ], [ -60.940834045410156, 14.740833282470703 ], [ -60.86083984375, 14.402776718139648 ] ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Coral Sea Is. Territory basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 149.629474, -15.706693504882821 ], [ 149.618574, -15.711093504882825 ], [ 149.621674, -15.702193504882828 ], [ 149.629474, -15.706693504882821 ] ] ], [ [ [ 145.476074, -14.669393504882834 ], [ 145.468374, -14.687193504882828 ], [ 145.438674, -14.671893504882831 ], [ 145.449974, -14.645593504882825 ], [ 145.476074, -14.669393504882834 ] ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Karaikal basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 79.8408203125, 10.817778587341309 ], [ 79.718650817871094, 10.920619964599609 ], [ 79.796722412109375, 11.0135498046875 ], [ 79.852767944335938, 10.988329887390137 ], [ 79.8408203125, 10.817778587341309 ] ] ] ] } }
+]
+}

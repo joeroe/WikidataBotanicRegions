@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Selvagens botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -15.874719619750977, 30.138050079345703 ], [ -15.86028003692627, 30.153610229492188 ], [ -15.853059768676758, 30.13722038269043 ], [ -15.874719619750977, 30.138050079345703 ] ] ] ] } }
+]
+}

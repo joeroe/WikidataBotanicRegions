@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "St.Helena basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -5.71297550201416, -15.992862701416016 ], [ -5.793056488037109, -15.994167327880859 ], [ -5.671389579772949, -15.909444808959961 ], [ -5.646944999694824, -15.961112976074219 ], [ -5.71297550201416, -15.992862701416016 ] ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "São Tomé basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 6.52388858795166, 0.018333330750465 ], [ 6.467222213745117, 0.259722173213959 ], [ 6.687777519226074, 0.402222216129303 ], [ 6.752777099609375, 0.228888869285583 ], [ 6.52388858795166, 0.018333330750465 ] ] ] ] } }
+]
+}

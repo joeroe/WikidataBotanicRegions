@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Clipperton I. basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -109.204437255859375, 10.288060188293457 ], [ -109.218063354492188, 10.281109809875488 ], [ -109.236953735351562, 10.302780151367188 ], [ -109.206947326660156, 10.304439544677734 ], [ -109.204437255859375, 10.288060188293457 ] ] ] ] } }
+]
+}

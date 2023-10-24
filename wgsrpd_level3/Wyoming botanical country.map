@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wyoming botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -111.050277709960938, 41.999717712402344 ], [ -111.050552368164062, 45.0 ], [ -104.0372314453125, 45.000350952148438 ], [ -104.02166748046875, 40.999717712402344 ], [ -111.04998779296875, 40.999717712402344 ], [ -111.050277709960938, 41.999717712402344 ] ] ] ] } }
+]
+}
