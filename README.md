@@ -1,4 +1,4 @@
-Working repository for import of [World Geographical Scheme for Recording Plant Distributions](https://en.wikipedia.org/wiki/World_Geographical_Scheme_for_Recording_Plant_Distributions) (WGSRPD) botanical regions into WikiData.
+This repository contains scripts and data files for an import of [World Geographical Scheme for Recording Plant Distributions](https://en.wikipedia.org/wiki/World_Geographical_Scheme_for_Recording_Plant_Distributions) (WGSRPD) into Wikidata.
 
 - 📁 **R/** contains the R scripts used to process this data
 - 📁 **raw_data/** contains original files from <https://github.com/tdwg/wgsrpd> (licensed CC-BY 4.0, see <https://www.tdwg.org/standards/wgsrpd/>).
