@@ -22,22 +22,22 @@ wgsrpd_l4 <- read_sf("raw_data/wgsrpd_level4.geojson")
 # Split into individual files
 pwalk(wgsrpd_l1, \(LEVEL1_NAM, geometry, crs, ...) {
   fn <- glue("{str_to_title(LEVEL1_NAM)} botanical continent")
-  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level1/{fn}.geojson"))
+  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level1/geojson/{fn}.geojson"))
 }, crs = st_crs(wgsrpd_l1))
 
 pwalk(wgsrpd_l2, \(LEVEL2_NAM, geometry, crs, ...) {
   fn <- glue("{LEVEL2_NAM} botanical region")
-  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level2/{fn}.geojson"))
+  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level2/geojson/{fn}.geojson"))
 }, crs = st_crs(wgsrpd_l2))
 
 pwalk(wgsrpd_l3, \(LEVEL3_NAM, geometry, crs, ...) {
   fn <- glue("{LEVEL3_NAM} botanical country")
-  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level3/{fn}.geojson"))
+  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level3/geojson/{fn}.geojson"))
 }, crs = st_crs(wgsrpd_l3))
 
 pwalk(wgsrpd_l4, \(Level_4_Na, geometry, crs, ...) {
   fn <- glue("{Level_4_Na} basic botanical recording unit")
-  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level4/{fn}.geojson"))
+  write_sf(st_sfc(geometry, crs = crs), glue("wgsrpd_level4/geojson/{fn}.geojson"))
 }, crs = st_crs(wgsrpd_l4))
 
 # Wrap GeoJSON in Commons metadata format (.map)
@@ -56,10 +56,10 @@ write_commons_map <- function(file, level, zoom = 3) {
     data = geojson
   )
 
-  write_json(map, str_replace(file, "geojson", "map"), auto_unbox = TRUE, pretty = TRUE)
+  write_json(map, str_replace_all(file, "geojson", "map"), auto_unbox = TRUE, pretty = TRUE)
 }
 
-walk(dir_ls("wgsrpd_level1/", glob = "*.geojson"), write_commons_map, level = 1, zoom = 3)
-walk(dir_ls("wgsrpd_level2/", glob = "*.geojson"), write_commons_map, level = 2, zoom = 4)
-walk(dir_ls("wgsrpd_level3/", glob = "*.geojson"), write_commons_map, level = 3, zoom = 5)
-walk(dir_ls("wgsrpd_level4/", glob = "*.geojson"), write_commons_map, level = 4, zoom = 6)
+walk(dir_ls("wgsrpd_level1/geojson/"), write_commons_map, level = 1, zoom = 3)
+walk(dir_ls("wgsrpd_level2/geojson/"), write_commons_map, level = 2, zoom = 4)
+walk(dir_ls("wgsrpd_level3/geojson/"), write_commons_map, level = 3, zoom = 5)
+walk(dir_ls("wgsrpd_level4/geojson/"), write_commons_map, level = 4, zoom = 6)
