@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Brazilia Distrito Federal basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -47.305099487304688, -16.038990020751953 ], [ -48.248336791992188, -16.041114807128906 ], [ -48.196670532226562, -15.490278244018555 ], [ -47.423614501953125, -15.491390228271484 ], [ -47.305099487304688, -16.038990020751953 ] ] ] ] } }
-]
+  "description": {
+    "en": "Brazilia Distrito Federal basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -15.7745,
+  "longitude": -47.7933,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Brazilia Distrito Federal basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -47.3051,
+                  -16.039
+                ],
+                [
+                  -48.2483,
+                  -16.0411
+                ],
+                [
+                  -48.1967,
+                  -15.4903
+                ],
+                [
+                  -47.4236,
+                  -15.4914
+                ],
+                [
+                  -47.3051,
+                  -16.039
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,123 @@
 {
-"type": "FeatureCollection",
-"name": "Mendoza basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -70.42431640625, -36.136039733886719 ], [ -70.337783813476562, -35.808334350585938 ], [ -70.5675048828125, -35.247779846191406 ], [ -70.368057250976562, -35.158889770507812 ], [ -70.049453735351562, -34.287506103515625 ], [ -69.8125, -34.235557556152344 ], [ -69.906112670898438, -33.78778076171875 ], [ -69.774444580078125, -33.381111145019531 ], [ -70.098892211914062, -33.172500610351562 ], [ -69.987503051757812, -32.878890991210938 ], [ -70.24432373046875, -32.309837341308594 ], [ -69.665557861328125, -32.261116027832031 ], [ -69.174179077148438, -31.954723358154297 ], [ -68.539169311523438, -32.19000244140625 ], [ -68.019454956054688, -32.067779541015625 ], [ -67.463348388671875, -32.293060302734375 ], [ -66.540008544921875, -34.939727783203125 ], [ -66.617294311523438, -36.000106811523438 ], [ -68.289459228515625, -35.998893737792969 ], [ -68.249481201171875, -37.565406799316406 ], [ -69.728622436523438, -37.098892211914062 ], [ -70.42431640625, -36.136039733886719 ] ] ] ] } }
-]
+  "description": {
+    "en": "Mendoza basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -34.6054,
+  "longitude": -68.6078,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Mendoza basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -70.4243,
+                  -36.136
+                ],
+                [
+                  -70.3378,
+                  -35.8083
+                ],
+                [
+                  -70.5675,
+                  -35.2478
+                ],
+                [
+                  -70.3681,
+                  -35.1589
+                ],
+                [
+                  -70.0495,
+                  -34.2875
+                ],
+                [
+                  -69.8125,
+                  -34.2356
+                ],
+                [
+                  -69.9061,
+                  -33.7878
+                ],
+                [
+                  -69.7744,
+                  -33.3811
+                ],
+                [
+                  -70.0989,
+                  -33.1725
+                ],
+                [
+                  -69.9875,
+                  -32.8789
+                ],
+                [
+                  -70.2443,
+                  -32.3098
+                ],
+                [
+                  -69.6656,
+                  -32.2611
+                ],
+                [
+                  -69.1742,
+                  -31.9547
+                ],
+                [
+                  -68.5392,
+                  -32.19
+                ],
+                [
+                  -68.0195,
+                  -32.0678
+                ],
+                [
+                  -67.4633,
+                  -32.2931
+                ],
+                [
+                  -66.54,
+                  -34.9397
+                ],
+                [
+                  -66.6173,
+                  -36.0001
+                ],
+                [
+                  -68.2895,
+                  -35.9989
+                ],
+                [
+                  -68.2495,
+                  -37.5654
+                ],
+                [
+                  -69.7286,
+                  -37.0989
+                ],
+                [
+                  -70.4243,
+                  -36.136
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

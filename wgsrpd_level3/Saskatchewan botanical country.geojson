@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Saskatchewan botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -101.367233276367188, 48.998786926269531 ], [ -109.999656677246094, 49.000602722167969 ], [ -110.000722966622916, 59.999980248616858 ], [ -102.000000542761455, 60.00000037323759 ], [ -102.000518798828125, 55.892524719238281 ], [ -101.367233276367188, 48.998786926269531 ] ] ] ] } }
+]
+}

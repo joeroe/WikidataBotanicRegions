@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Liechtenstein basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 9.474637031555176, 47.057456970214844 ], [ 9.485832214355469, 47.200271606445312 ], [ 9.5335693359375, 47.274543762207031 ], [ 9.634998321533203, 47.094993591308594 ], [ 9.474637031555176, 47.057456970214844 ] ] ] ] } }
-]
+  "description": {
+    "en": "Liechtenstein basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 47.1478,
+  "longitude": 9.54,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Liechtenstein basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  9.4746,
+                  47.0575
+                ],
+                [
+                  9.4858,
+                  47.2003
+                ],
+                [
+                  9.5336,
+                  47.2745
+                ],
+                [
+                  9.635,
+                  47.095
+                ],
+                [
+                  9.4746,
+                  47.0575
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

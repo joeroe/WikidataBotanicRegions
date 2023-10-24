@@ -1,8 +1,123 @@
 {
-"type": "FeatureCollection",
-"name": "Seychelles basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 56.282174, -7.13419350488283 ], [ 56.247174, -7.194493504882828 ], [ 56.278574, -7.110793504882821 ], [ 56.282174, -7.13419350488283 ] ] ], [ [ [ 55.535274, -4.763093504882832 ], [ 55.376074, -4.627193504882825 ], [ 55.459174, -4.551393504882824 ], [ 55.539174, -4.666093504882824 ], [ 55.535274, -4.763093504882832 ] ] ], [ [ [ 55.246074, -4.506993504882828 ], [ 55.217174, -4.471393504882826 ], [ 55.231674, -4.448093504882834 ], [ 55.265874, -4.476093504882826 ], [ 55.246074, -4.506993504882828 ] ] ], [ [ [ 55.775874, -4.348293504882832 ], [ 55.731974, -4.340293504882823 ], [ 55.687174, -4.287493504882832 ], [ 55.771674, -4.315593504882827 ], [ 55.775874, -4.348293504882832 ] ] ] ] } }
-]
+  "description": {
+    "en": "Seychelles basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -4.6651,
+  "longitude": 55.5064,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Seychelles basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  56.2822,
+                  -7.1342
+                ],
+                [
+                  56.2472,
+                  -7.1945
+                ],
+                [
+                  56.2786,
+                  -7.1108
+                ],
+                [
+                  56.2822,
+                  -7.1342
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  55.5353,
+                  -4.7631
+                ],
+                [
+                  55.3761,
+                  -4.6272
+                ],
+                [
+                  55.4592,
+                  -4.5514
+                ],
+                [
+                  55.5392,
+                  -4.6661
+                ],
+                [
+                  55.5353,
+                  -4.7631
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  55.2461,
+                  -4.507
+                ],
+                [
+                  55.2172,
+                  -4.4714
+                ],
+                [
+                  55.2317,
+                  -4.4481
+                ],
+                [
+                  55.2659,
+                  -4.4761
+                ],
+                [
+                  55.2461,
+                  -4.507
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  55.7759,
+                  -4.3483
+                ],
+                [
+                  55.732,
+                  -4.3403
+                ],
+                [
+                  55.6872,
+                  -4.2875
+                ],
+                [
+                  55.7717,
+                  -4.3156
+                ],
+                [
+                  55.7759,
+                  -4.3483
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Alagoas basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -36.404823303222656, -10.49879264831543 ], [ -37.0050048828125, -9.974723815917969 ], [ -38.002227783203125, -9.52972412109375 ], [ -38.203895568847656, -9.418889999389648 ], [ -38.23583984375, -9.330833435058594 ], [ -37.754173278808594, -8.853334426879883 ], [ -36.997779846191406, -9.304723739624023 ], [ -36.35833740234375, -9.20916748046875 ], [ -36.005279541015625, -8.886390686035156 ], [ -35.161949157714844, -8.902778625488281 ], [ -36.404823303222656, -10.49879264831543 ] ] ] ] } }
-]
+  "description": {
+    "en": "Alagoas basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -9.5166,
+  "longitude": -36.6714,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Alagoas basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -36.4048,
+                  -10.4988
+                ],
+                [
+                  -37.005,
+                  -9.9747
+                ],
+                [
+                  -38.0022,
+                  -9.5297
+                ],
+                [
+                  -38.2039,
+                  -9.4189
+                ],
+                [
+                  -38.2358,
+                  -9.3308
+                ],
+                [
+                  -37.7542,
+                  -8.8533
+                ],
+                [
+                  -36.9978,
+                  -9.3047
+                ],
+                [
+                  -36.3583,
+                  -9.2092
+                ],
+                [
+                  -36.0053,
+                  -8.8864
+                ],
+                [
+                  -35.1619,
+                  -8.9028
+                ],
+                [
+                  -36.4048,
+                  -10.4988
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

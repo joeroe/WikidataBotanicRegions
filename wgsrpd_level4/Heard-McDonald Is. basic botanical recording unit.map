@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Heard-McDonald Is. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 73.773880004882812, -53.125030517578125 ], [ 73.474441528320312, -53.194168090820312 ], [ 73.23443603515625, -52.987785339355469 ], [ 73.578887939453125, -53.024444580078125 ], [ 73.773880004882812, -53.125030517578125 ] ] ] ] } }
-]
+  "description": {
+    "en": "Heard-McDonald Is. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -53.0876,
+  "longitude": 73.5033,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Heard-McDonald Is. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  73.7739,
+                  -53.125
+                ],
+                [
+                  73.4744,
+                  -53.1942
+                ],
+                [
+                  73.2344,
+                  -52.9878
+                ],
+                [
+                  73.5789,
+                  -53.0244
+                ],
+                [
+                  73.7739,
+                  -53.125
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

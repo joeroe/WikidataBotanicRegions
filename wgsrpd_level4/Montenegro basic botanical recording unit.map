@@ -1,8 +1,95 @@
 {
-"type": "FeatureCollection",
-"name": "Montenegro basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 18.455554962158203, 42.565826416015625 ], [ 18.577499389648438, 42.654998779296875 ], [ 18.480552673339844, 42.964439392089844 ], [ 18.699996948242188, 43.25555419921875 ], [ 18.914237976074219, 43.358314514160156 ], [ 19.068607330322266, 43.241386413574219 ], [ 19.006664276123047, 43.555831909179688 ], [ 20.382774353027344, 42.835548400878906 ], [ 20.014999389648438, 42.752494812011719 ], [ 20.071422576904297, 42.5609130859375 ], [ 19.822498321533203, 42.471939086914062 ], [ 19.645832061767578, 42.618049621582031 ], [ 19.282497406005859, 42.185554504394531 ], [ 19.367771148681641, 41.8489990234375 ], [ 18.455554962158203, 42.565826416015625 ] ] ] ] } }
-]
+  "description": {
+    "en": "Montenegro basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 42.7905,
+  "longitude": 19.2475,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Montenegro basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  18.4556,
+                  42.5658
+                ],
+                [
+                  18.5775,
+                  42.655
+                ],
+                [
+                  18.4806,
+                  42.9644
+                ],
+                [
+                  18.7,
+                  43.2556
+                ],
+                [
+                  18.9142,
+                  43.3583
+                ],
+                [
+                  19.0686,
+                  43.2414
+                ],
+                [
+                  19.0067,
+                  43.5558
+                ],
+                [
+                  20.3828,
+                  42.8355
+                ],
+                [
+                  20.015,
+                  42.7525
+                ],
+                [
+                  20.0714,
+                  42.5609
+                ],
+                [
+                  19.8225,
+                  42.4719
+                ],
+                [
+                  19.6458,
+                  42.618
+                ],
+                [
+                  19.2825,
+                  42.1856
+                ],
+                [
+                  19.3678,
+                  41.849
+                ],
+                [
+                  18.4556,
+                  42.5658
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

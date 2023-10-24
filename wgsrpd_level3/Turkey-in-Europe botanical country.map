@@ -1,8 +1,139 @@
 {
-"type": "FeatureCollection",
-"name": "Turkey-in-Europe botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 25.824474, 40.100306495117181 ], [ 25.663874, 40.126406495117166 ], [ 26.013574, 40.157506495117175 ], [ 25.989974, 40.128906495117164 ], [ 25.824474, 40.100306495117181 ] ] ], [ [ [ 27.394974, 42.008006495117158 ], [ 28.013074, 41.982206495117182 ], [ 27.968374, 41.825006495117165 ], [ 28.192774, 41.541606495117165 ], [ 29.093374, 41.244406495117161 ], [ 29.055574, 41.082506495117158 ], [ 28.830274, 40.955506495117177 ], [ 28.529174, 41.080306495117171 ], [ 27.509674, 40.983606495117172 ], [ 27.298074, 40.704406495117169 ], [ 26.160274, 40.04890649511718 ], [ 26.214174, 40.325506495117182 ], [ 26.827174, 40.586906495117162 ], [ 26.070274, 40.619406495117161 ], [ 26.361374, 40.955806495117159 ], [ 26.324974, 41.23470649511718 ], [ 26.635274, 41.358906495117182 ], [ 26.345574, 41.786606495117169 ], [ 27.043074, 42.085806495117183 ], [ 27.394974, 42.008006495117158 ] ] ] ] } }
-]
+  "description": {
+    "en": "Turkey-in-Europe botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 41.2637,
+  "longitude": 27.3133,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Turkey-in-Europe botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  25.8245,
+                  40.1003
+                ],
+                [
+                  25.6639,
+                  40.1264
+                ],
+                [
+                  26.0136,
+                  40.1575
+                ],
+                [
+                  25.99,
+                  40.1289
+                ],
+                [
+                  25.8245,
+                  40.1003
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  27.395,
+                  42.008
+                ],
+                [
+                  28.0131,
+                  41.9822
+                ],
+                [
+                  27.9684,
+                  41.825
+                ],
+                [
+                  28.1928,
+                  41.5416
+                ],
+                [
+                  29.0934,
+                  41.2444
+                ],
+                [
+                  29.0556,
+                  41.0825
+                ],
+                [
+                  28.8303,
+                  40.9555
+                ],
+                [
+                  28.5292,
+                  41.0803
+                ],
+                [
+                  27.5097,
+                  40.9836
+                ],
+                [
+                  27.2981,
+                  40.7044
+                ],
+                [
+                  26.1603,
+                  40.0489
+                ],
+                [
+                  26.2142,
+                  40.3255
+                ],
+                [
+                  26.8272,
+                  40.5869
+                ],
+                [
+                  26.0703,
+                  40.6194
+                ],
+                [
+                  26.3614,
+                  40.9558
+                ],
+                [
+                  26.325,
+                  41.2347
+                ],
+                [
+                  26.6353,
+                  41.3589
+                ],
+                [
+                  26.3456,
+                  41.7866
+                ],
+                [
+                  27.0431,
+                  42.0858
+                ],
+                [
+                  27.395,
+                  42.008
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

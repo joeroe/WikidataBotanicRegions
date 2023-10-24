@@ -1,8 +1,103 @@
 {
-"type": "FeatureCollection",
-"name": "Crozet Is. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 52.254474, -46.457493504882834 ], [ 52.191374, -46.463593504882823 ], [ 52.088374, -46.411093504882828 ], [ 52.257174, -46.378093504882827 ], [ 52.254474, -46.457493504882834 ] ] ], [ [ [ 51.819474, -46.453593504882832 ], [ 51.718374, -46.451693504882826 ], [ 51.651974, -46.374193504882825 ], [ 51.779974, -46.341093504882835 ], [ 51.819474, -46.453593504882832 ] ] ], [ [ [ 50.272174, -46.131393504882823 ], [ 50.185274, -46.108093504882831 ], [ 50.176974, -46.062493504882823 ], [ 50.273874, -46.050793504882833 ], [ 50.272174, -46.131393504882823 ] ] ] ] } }
-]
+  "description": {
+    "en": "Crozet Is. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -46.339,
+  "longitude": 51.5581,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Crozet Is. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  52.2545,
+                  -46.4575
+                ],
+                [
+                  52.1914,
+                  -46.4636
+                ],
+                [
+                  52.0884,
+                  -46.4111
+                ],
+                [
+                  52.2572,
+                  -46.3781
+                ],
+                [
+                  52.2545,
+                  -46.4575
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  51.8195,
+                  -46.4536
+                ],
+                [
+                  51.7184,
+                  -46.4517
+                ],
+                [
+                  51.652,
+                  -46.3742
+                ],
+                [
+                  51.78,
+                  -46.3411
+                ],
+                [
+                  51.8195,
+                  -46.4536
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  50.2722,
+                  -46.1314
+                ],
+                [
+                  50.1853,
+                  -46.1081
+                ],
+                [
+                  50.177,
+                  -46.0625
+                ],
+                [
+                  50.2739,
+                  -46.0508
+                ],
+                [
+                  50.2722,
+                  -46.1314
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

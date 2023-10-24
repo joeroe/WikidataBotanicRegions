@@ -1,8 +1,67 @@
 {
-"type": "FeatureCollection",
-"name": "Sikkim basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 88.91693115234375, 27.320831298828125 ], [ 88.430366516113281, 27.062639236450195 ], [ 88.010818481445312, 27.151391983032227 ], [ 88.1361083984375, 27.949161529541016 ], [ 88.628860473632812, 28.119163513183594 ], [ 88.8316650390625, 28.013332366943359 ], [ 88.763320922851562, 27.543331146240234 ], [ 88.91693115234375, 27.320831298828125 ] ] ] ] } }
-]
+  "description": {
+    "en": "Sikkim basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 27.5707,
+  "longitude": 88.4452,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Sikkim basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  88.9169,
+                  27.3208
+                ],
+                [
+                  88.4304,
+                  27.0626
+                ],
+                [
+                  88.0108,
+                  27.1514
+                ],
+                [
+                  88.1361,
+                  27.9492
+                ],
+                [
+                  88.6289,
+                  28.1192
+                ],
+                [
+                  88.8317,
+                  28.0133
+                ],
+                [
+                  88.7633,
+                  27.5433
+                ],
+                [
+                  88.9169,
+                  27.3208
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,131 @@
 {
-"type": "FeatureCollection",
-"name": "Prince Edward I. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -63.811111450195312, 46.327491760253906 ], [ -63.7147216796875, 46.354164123535156 ], [ -64.129989624023438, 46.407211303710938 ], [ -64.105560302734375, 46.618049621582031 ], [ -64.415557861328125, 46.670547485351562 ], [ -64.020843505859375, 47.038604736328125 ], [ -64.0916748046875, 46.778602600097656 ], [ -63.828338623046875, 46.458045959472656 ], [ -63.647224426269531, 46.567214965820312 ], [ -63.216392517089844, 46.412208557128906 ], [ -61.965003967285156, 46.453323364257812 ], [ -62.603889465332031, 46.1824951171875 ], [ -62.454719543457031, 46.018882751464844 ], [ -62.650276184082031, 45.960273742675781 ], [ -63.11944580078125, 46.20721435546875 ], [ -62.962776184082031, 46.319992065429688 ], [ -63.253616333007812, 46.137496948242188 ], [ -63.811111450195312, 46.327491760253906 ] ] ], [ [ [ -63.270553588867188, 46.450271606445312 ], [ -63.245834350585938, 46.442764282226562 ], [ -63.240837097167969, 46.4385986328125 ], [ -63.285003662109375, 46.450828552246094 ], [ -63.270553588867188, 46.450271606445312 ] ] ] ] } }
-]
+  "description": {
+    "en": "Prince Edward I. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 46.3762,
+  "longitude": -63.238,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Prince Edward I. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -63.8111,
+                  46.3275
+                ],
+                [
+                  -63.7147,
+                  46.3542
+                ],
+                [
+                  -64.13,
+                  46.4072
+                ],
+                [
+                  -64.1056,
+                  46.618
+                ],
+                [
+                  -64.4156,
+                  46.6705
+                ],
+                [
+                  -64.0208,
+                  47.0386
+                ],
+                [
+                  -64.0917,
+                  46.7786
+                ],
+                [
+                  -63.8283,
+                  46.458
+                ],
+                [
+                  -63.6472,
+                  46.5672
+                ],
+                [
+                  -63.2164,
+                  46.4122
+                ],
+                [
+                  -61.965,
+                  46.4533
+                ],
+                [
+                  -62.6039,
+                  46.1825
+                ],
+                [
+                  -62.4547,
+                  46.0189
+                ],
+                [
+                  -62.6503,
+                  45.9603
+                ],
+                [
+                  -63.1194,
+                  46.2072
+                ],
+                [
+                  -62.9628,
+                  46.32
+                ],
+                [
+                  -63.2536,
+                  46.1375
+                ],
+                [
+                  -63.8111,
+                  46.3275
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -63.2706,
+                  46.4503
+                ],
+                [
+                  -63.2458,
+                  46.4428
+                ],
+                [
+                  -63.2408,
+                  46.4386
+                ],
+                [
+                  -63.285,
+                  46.4508
+                ],
+                [
+                  -63.2706,
+                  46.4503
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

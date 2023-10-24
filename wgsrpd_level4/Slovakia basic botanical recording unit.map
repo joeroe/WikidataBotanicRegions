@@ -1,8 +1,172 @@
 {
-"type": "FeatureCollection",
-"name": "Slovakia basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 17.251655578613281, 48.024993896484375 ], [ 17.116664886474609, 48.038604736328125 ], [ 16.94972038269043, 48.278049468994141 ], [ 17.195640563964844, 48.235889434814453 ], [ 17.251655578613281, 48.024993896484375 ] ] ] ] } }
-]
+  "description": {
+    "en": "Slovakia basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 48.7037,
+  "longitude": 19.5009,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Slovakia basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  19.6586,
+                  49.4067
+                ],
+                [
+                  19.791,
+                  49.4056
+                ],
+                [
+                  19.7789,
+                  49.2011
+                ],
+                [
+                  20.0814,
+                  49.1753
+                ],
+                [
+                  20.3606,
+                  49.393
+                ],
+                [
+                  20.9164,
+                  49.2961
+                ],
+                [
+                  21.6189,
+                  49.4364
+                ],
+                [
+                  22.5581,
+                  49.0794
+                ],
+                [
+                  22.1109,
+                  48.3803
+                ],
+                [
+                  21.7314,
+                  48.3511
+                ],
+                [
+                  21.4428,
+                  48.5753
+                ],
+                [
+                  20.6606,
+                  48.5633
+                ],
+                [
+                  19.9378,
+                  48.1353
+                ],
+                [
+                  19.6306,
+                  48.2339
+                ],
+                [
+                  19.4722,
+                  48.0872
+                ],
+                [
+                  18.8491,
+                  48.0511
+                ],
+                [
+                  18.8497,
+                  47.8178
+                ],
+                [
+                  18.6553,
+                  47.7586
+                ],
+                [
+                  17.7122,
+                  47.7705
+                ],
+                [
+                  16.8422,
+                  48.3653
+                ],
+                [
+                  17.1139,
+                  48.833
+                ],
+                [
+                  17.7575,
+                  48.8767
+                ],
+                [
+                  18.5622,
+                  49.4939
+                ],
+                [
+                  19.1636,
+                  49.4005
+                ],
+                [
+                  19.4756,
+                  49.6
+                ],
+                [
+                  19.6586,
+                  49.4067
+                ]
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  17.2517,
+                  48.025
+                ],
+                [
+                  17.1167,
+                  48.0386
+                ],
+                [
+                  16.9497,
+                  48.278
+                ],
+                [
+                  17.1956,
+                  48.2359
+                ],
+                [
+                  17.2517,
+                  48.025
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Vatican City basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 12.51494855549635, 41.884055273664238 ], [ 12.523794327216047, 41.883374829685799 ], [ 12.522433439259171, 41.875889945922978 ], [ 12.515628999474789, 41.878611721836734 ], [ 12.51494855549635, 41.884055273664238 ] ] ] ] } }
+]
+}

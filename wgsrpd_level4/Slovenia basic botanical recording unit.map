@@ -1,8 +1,115 @@
 {
-"type": "FeatureCollection",
-"name": "Slovenia basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 13.718654632568359, 46.526611328125 ], [ 14.544998168945312, 46.407493591308594 ], [ 14.870553970336914, 46.615829467773438 ], [ 16.231941223144531, 46.876663208007812 ], [ 16.607872009277344, 46.476234436035156 ], [ 16.292507171630859, 46.530815124511719 ], [ 15.654722213745117, 46.219444274902344 ], [ 15.697776794433594, 45.844161987304688 ], [ 15.309165954589844, 45.751937866210938 ], [ 15.174457550048828, 45.425819396972656 ], [ 14.81805419921875, 45.466110229492188 ], [ 14.601387023925781, 45.675277709960938 ], [ 14.407220840454102, 45.489166259765625 ], [ 13.703609466552734, 45.444160461425781 ], [ 13.589443206787109, 45.516937255859375 ], [ 13.919166564941406, 45.637496948242188 ], [ 13.479999542236328, 46.0111083984375 ], [ 13.669166564941406, 46.177497863769531 ], [ 13.383054733276367, 46.297218322753906 ], [ 13.718654632568359, 46.526611328125 ] ] ] ] } }
-]
+  "description": {
+    "en": "Slovenia basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 46.139,
+  "longitude": 14.8333,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Slovenia basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  13.7187,
+                  46.5266
+                ],
+                [
+                  14.545,
+                  46.4075
+                ],
+                [
+                  14.8706,
+                  46.6158
+                ],
+                [
+                  16.2319,
+                  46.8767
+                ],
+                [
+                  16.6079,
+                  46.4762
+                ],
+                [
+                  16.2925,
+                  46.5308
+                ],
+                [
+                  15.6547,
+                  46.2194
+                ],
+                [
+                  15.6978,
+                  45.8442
+                ],
+                [
+                  15.3092,
+                  45.7519
+                ],
+                [
+                  15.1745,
+                  45.4258
+                ],
+                [
+                  14.8181,
+                  45.4661
+                ],
+                [
+                  14.6014,
+                  45.6753
+                ],
+                [
+                  14.4072,
+                  45.4892
+                ],
+                [
+                  13.7036,
+                  45.4442
+                ],
+                [
+                  13.5894,
+                  45.5169
+                ],
+                [
+                  13.9192,
+                  45.6375
+                ],
+                [
+                  13.48,
+                  46.0111
+                ],
+                [
+                  13.6692,
+                  46.1775
+                ],
+                [
+                  13.3831,
+                  46.2972
+                ],
+                [
+                  13.7187,
+                  46.5266
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

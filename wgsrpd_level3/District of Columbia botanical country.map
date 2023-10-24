@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "District of Columbia botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -77.022781372070312, 38.803092956542969 ], [ -77.118881225585938, 38.941375732421875 ], [ -77.038604736328125, 38.9949951171875 ], [ -76.9022216796875, 38.892768859863281 ], [ -77.022781372070312, 38.803092956542969 ] ] ] ] } }
-]
+  "description": {
+    "en": "District of Columbia botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 38.9034,
+  "longitude": -77.0166,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "District of Columbia botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -77.0228,
+                  38.8031
+                ],
+                [
+                  -77.1189,
+                  38.9414
+                ],
+                [
+                  -77.0386,
+                  38.995
+                ],
+                [
+                  -76.9022,
+                  38.8928
+                ],
+                [
+                  -77.0228,
+                  38.8031
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

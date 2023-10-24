@@ -1,8 +1,59 @@
 {
-"type": "FeatureCollection",
-"name": "Delaware botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -75.42144775390625, 39.81195068359375 ], [ -75.576400756835938, 39.459434509277344 ], [ -75.043685913085938, 38.450859069824219 ], [ -75.71221923828125, 38.453605651855469 ], [ -75.7852783203125, 39.720268249511719 ], [ -75.42144775390625, 39.81195068359375 ] ] ] ] } }
-]
+  "description": {
+    "en": "Delaware botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 38.9854,
+  "longitude": -75.5195,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Delaware botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -75.4214,
+                  39.812
+                ],
+                [
+                  -75.5764,
+                  39.4594
+                ],
+                [
+                  -75.0437,
+                  38.4509
+                ],
+                [
+                  -75.7122,
+                  38.4536
+                ],
+                [
+                  -75.7853,
+                  39.7203
+                ],
+                [
+                  -75.4214,
+                  39.812
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

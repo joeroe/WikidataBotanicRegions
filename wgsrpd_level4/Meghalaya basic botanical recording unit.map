@@ -1,8 +1,91 @@
 {
-"type": "FeatureCollection",
-"name": "Meghalaya basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 89.85137939453125, 25.515542984008789 ], [ 90.146400451660156, 25.954339981079102 ], [ 90.952247619628906, 25.915340423583984 ], [ 91.218910217285156, 25.722749710083008 ], [ 91.718009948730469, 26.054389953613281 ], [ 92.255958557128906, 26.059820175170898 ], [ 92.162246704101562, 25.671670913696289 ], [ 92.416999816894531, 25.748319625854492 ], [ 92.808059692382812, 25.216920852661133 ], [ 92.412490844726562, 25.01361083984375 ], [ 92.040817260742188, 25.187774658203125 ], [ 90.412490844726562, 25.148883819580078 ], [ 89.845260620117188, 25.288608551025391 ], [ 89.85137939453125, 25.515542984008789 ] ] ] ] } }
-]
+  "description": {
+    "en": "Meghalaya basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 25.5274,
+  "longitude": 91.2931,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Meghalaya basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  89.8514,
+                  25.5155
+                ],
+                [
+                  90.1464,
+                  25.9543
+                ],
+                [
+                  90.9522,
+                  25.9153
+                ],
+                [
+                  91.2189,
+                  25.7227
+                ],
+                [
+                  91.718,
+                  26.0544
+                ],
+                [
+                  92.256,
+                  26.0598
+                ],
+                [
+                  92.1622,
+                  25.6717
+                ],
+                [
+                  92.417,
+                  25.7483
+                ],
+                [
+                  92.8081,
+                  25.2169
+                ],
+                [
+                  92.4125,
+                  25.0136
+                ],
+                [
+                  92.0408,
+                  25.1878
+                ],
+                [
+                  90.4125,
+                  25.1489
+                ],
+                [
+                  89.8453,
+                  25.2886
+                ],
+                [
+                  89.8514,
+                  25.5155
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

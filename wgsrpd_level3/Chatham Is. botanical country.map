@@ -1,8 +1,91 @@
 {
-"type": "FeatureCollection",
-"name": "Chatham Is. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -176.162226, -44.324693504882831 ], [ -176.221726, -44.341093504882835 ], [ -176.235826, -44.234693504882827 ], [ -176.115826, -44.263293504882824 ], [ -176.162226, -44.324693504882831 ] ] ], [ [ [ -176.452226, -43.736093504882831 ], [ -176.269226, -43.76389350488283 ], [ -176.535526, -43.767493504882822 ], [ -176.354726, -44.012493504882826 ], [ -176.605526, -44.11919350488283 ], [ -176.534226, -43.870293504882824 ], [ -176.848026, -43.812193504882828 ], [ -176.452226, -43.736093504882831 ] ] ] ] } }
-]
+  "description": {
+    "en": "Chatham Is. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": -43.948,
+  "longitude": -176.4938,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Chatham Is. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -176.1622,
+                  -44.3247
+                ],
+                [
+                  -176.2217,
+                  -44.3411
+                ],
+                [
+                  -176.2358,
+                  -44.2347
+                ],
+                [
+                  -176.1158,
+                  -44.2633
+                ],
+                [
+                  -176.1622,
+                  -44.3247
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -176.4522,
+                  -43.7361
+                ],
+                [
+                  -176.2692,
+                  -43.7639
+                ],
+                [
+                  -176.5355,
+                  -43.7675
+                ],
+                [
+                  -176.3547,
+                  -44.0125
+                ],
+                [
+                  -176.6055,
+                  -44.1192
+                ],
+                [
+                  -176.5342,
+                  -43.8703
+                ],
+                [
+                  -176.848,
+                  -43.8122
+                ],
+                [
+                  -176.4522,
+                  -43.7361
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

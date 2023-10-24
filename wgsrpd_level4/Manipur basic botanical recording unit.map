@@ -1,8 +1,75 @@
 {
-"type": "FeatureCollection",
-"name": "Manipur basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 94.661651611328125, 25.428049087524414 ], [ 94.576385498046875, 25.214439392089844 ], [ 94.734420776367188, 25.02471923828125 ], [ 94.144439697265625, 23.847774505615234 ], [ 92.984588623046875, 24.102119445800781 ], [ 93.081993103027344, 24.708539962768555 ], [ 93.756858825683594, 25.513599395751953 ], [ 94.369636535644531, 25.492359161376953 ], [ 94.567070007324219, 25.668479919433594 ], [ 94.661651611328125, 25.428049087524414 ] ] ] ] } }
-]
+  "description": {
+    "en": "Manipur basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 24.7122,
+  "longitude": 93.8832,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Manipur basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  94.6617,
+                  25.428
+                ],
+                [
+                  94.5764,
+                  25.2144
+                ],
+                [
+                  94.7344,
+                  25.0247
+                ],
+                [
+                  94.1444,
+                  23.8478
+                ],
+                [
+                  92.9846,
+                  24.1021
+                ],
+                [
+                  93.082,
+                  24.7085
+                ],
+                [
+                  93.7569,
+                  25.5136
+                ],
+                [
+                  94.3696,
+                  25.4924
+                ],
+                [
+                  94.5671,
+                  25.6685
+                ],
+                [
+                  94.6617,
+                  25.428
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

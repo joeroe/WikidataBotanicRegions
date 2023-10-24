@@ -1,8 +1,83 @@
 {
-"type": "FeatureCollection",
-"name": "Nebraska basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -104.02166748046875, 40.999717712402344 ], [ -104.029006958007812, 43.000274658203125 ], [ -98.500289916992188, 42.999717712402344 ], [ -97.980560302734375, 42.778877258300781 ], [ -97.299163818359375, 42.880546569824219 ], [ -96.389450073242188, 42.489990234375 ], [ -95.919998168945312, 41.456939697265625 ], [ -95.767776489257812, 40.545829772949219 ], [ -95.3154296875, 39.999717712402344 ], [ -102.024322509765625, 40.00030517578125 ], [ -102.0272216796875, 40.999160766601562 ], [ -104.02166748046875, 40.999717712402344 ] ] ] ] } }
-]
+  "description": {
+    "en": "Nebraska basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 41.5283,
+  "longitude": -99.7827,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Nebraska basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -104.0217,
+                  40.9997
+                ],
+                [
+                  -104.029,
+                  43.0003
+                ],
+                [
+                  -98.5003,
+                  42.9997
+                ],
+                [
+                  -97.9806,
+                  42.7789
+                ],
+                [
+                  -97.2992,
+                  42.8805
+                ],
+                [
+                  -96.3895,
+                  42.49
+                ],
+                [
+                  -95.92,
+                  41.4569
+                ],
+                [
+                  -95.7678,
+                  40.5458
+                ],
+                [
+                  -95.3154,
+                  39.9997
+                ],
+                [
+                  -102.0243,
+                  40.0003
+                ],
+                [
+                  -102.0272,
+                  40.9992
+                ],
+                [
+                  -104.0217,
+                  40.9997
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

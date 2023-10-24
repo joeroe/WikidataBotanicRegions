@@ -1,8 +1,143 @@
 {
-"type": "FeatureCollection",
-"name": "Sinai botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 33.474674, 31.140506495117179 ], [ 33.424974, 31.165506495117185 ], [ 33.266974, 31.216006495117185 ], [ 33.400574, 31.181706495117183 ], [ 33.474674, 31.140506495117179 ] ] ], [ [ [ 33.195274, 31.232806495117174 ], [ 33.260774, 31.215606495117171 ], [ 33.101674, 31.227206495117159 ], [ 32.976674, 31.168306495117164 ], [ 33.096074, 31.232506495117164 ], [ 33.195274, 31.232806495117174 ] ] ], [ [ [ 34.287474, 31.162806495117181 ], [ 34.903774, 29.486706495117161 ], [ 34.254474, 27.728606495117177 ], [ 33.242774, 28.554406495117163 ], [ 33.170274, 29.004706495117162 ], [ 32.741374, 29.454706495117179 ], [ 32.649074, 29.788406495117172 ], [ 32.854674, 29.913606495117179 ], [ 32.599374, 31.060106495117182 ], [ 33.111674, 31.19300649511716 ], [ 33.143574, 31.058306495117179 ], [ 33.673074, 31.120006495117181 ], [ 34.216674, 31.323306495117166 ], [ 34.287474, 31.162806495117181 ] ] ] ] } }
-]
+  "description": {
+    "en": "Sinai botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 29.7141,
+  "longitude": 33.7772,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Sinai botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  33.4747,
+                  31.1405
+                ],
+                [
+                  33.425,
+                  31.1655
+                ],
+                [
+                  33.267,
+                  31.216
+                ],
+                [
+                  33.4006,
+                  31.1817
+                ],
+                [
+                  33.4747,
+                  31.1405
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  33.1953,
+                  31.2328
+                ],
+                [
+                  33.2608,
+                  31.2156
+                ],
+                [
+                  33.1017,
+                  31.2272
+                ],
+                [
+                  32.9767,
+                  31.1683
+                ],
+                [
+                  33.0961,
+                  31.2325
+                ],
+                [
+                  33.1953,
+                  31.2328
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  34.2875,
+                  31.1628
+                ],
+                [
+                  34.9038,
+                  29.4867
+                ],
+                [
+                  34.2545,
+                  27.7286
+                ],
+                [
+                  33.2428,
+                  28.5544
+                ],
+                [
+                  33.1703,
+                  29.0047
+                ],
+                [
+                  32.7414,
+                  29.4547
+                ],
+                [
+                  32.6491,
+                  29.7884
+                ],
+                [
+                  32.8547,
+                  29.9136
+                ],
+                [
+                  32.5994,
+                  31.0601
+                ],
+                [
+                  33.1117,
+                  31.193
+                ],
+                [
+                  33.1436,
+                  31.0583
+                ],
+                [
+                  33.6731,
+                  31.12
+                ],
+                [
+                  34.2167,
+                  31.3233
+                ],
+                [
+                  34.2875,
+                  31.1628
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

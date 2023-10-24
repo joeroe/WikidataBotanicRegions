@@ -1,8 +1,119 @@
 {
-"type": "FeatureCollection",
-"name": "Guanajuato basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -100.280319213867188, 20.204505920410156 ], [ -100.481399536132812, 19.90777587890625 ], [ -100.841400146484375, 19.927497863769531 ], [ -100.984451293945312, 20.059719085693359 ], [ -101.361106872558594, 20.035274505615234 ], [ -101.46063232421875, 20.33367919921875 ], [ -101.888900756835938, 20.191108703613281 ], [ -102.108810424804688, 20.389083862304688 ], [ -101.978347778320312, 20.591110229492188 ], [ -102.074722290039062, 20.813888549804688 ], [ -101.576400756835938, 21.326663970947266 ], [ -101.524856567382812, 21.856639862060547 ], [ -100.628616333007812, 21.510276794433594 ], [ -100.296951293945312, 21.648887634277344 ], [ -99.790542602539062, 21.419178009033203 ], [ -99.731948852539062, 21.231388092041016 ], [ -100.009452819824219, 21.180274963378906 ], [ -100.119453430175781, 20.898052215576172 ], [ -100.461936950683594, 20.928054809570312 ], [ -100.600570678710938, 20.691108703613281 ], [ -100.280319213867188, 20.204505920410156 ] ] ] ] } }
-]
+  "description": {
+    "en": "Guanajuato basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 20.8703,
+  "longitude": -101.0102,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Guanajuato basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -100.2803,
+                  20.2045
+                ],
+                [
+                  -100.4814,
+                  19.9078
+                ],
+                [
+                  -100.8414,
+                  19.9275
+                ],
+                [
+                  -100.9845,
+                  20.0597
+                ],
+                [
+                  -101.3611,
+                  20.0353
+                ],
+                [
+                  -101.4606,
+                  20.3337
+                ],
+                [
+                  -101.8889,
+                  20.1911
+                ],
+                [
+                  -102.1088,
+                  20.3891
+                ],
+                [
+                  -101.9783,
+                  20.5911
+                ],
+                [
+                  -102.0747,
+                  20.8139
+                ],
+                [
+                  -101.5764,
+                  21.3267
+                ],
+                [
+                  -101.5249,
+                  21.8566
+                ],
+                [
+                  -100.6286,
+                  21.5103
+                ],
+                [
+                  -100.297,
+                  21.6489
+                ],
+                [
+                  -99.7905,
+                  21.4192
+                ],
+                [
+                  -99.7319,
+                  21.2314
+                ],
+                [
+                  -100.0095,
+                  21.1803
+                ],
+                [
+                  -100.1195,
+                  20.8981
+                ],
+                [
+                  -100.4619,
+                  20.9281
+                ],
+                [
+                  -100.6006,
+                  20.6911
+                ],
+                [
+                  -100.2803,
+                  20.2045
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

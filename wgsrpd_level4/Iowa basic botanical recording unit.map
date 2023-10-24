@@ -1,8 +1,103 @@
 {
-"type": "FeatureCollection",
-"name": "Iowa basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -96.482772827148438, 42.513053894042969 ], [ -96.639724731445312, 42.739433288574219 ], [ -96.451950073242188, 43.119712829589844 ], [ -96.602493286132812, 43.5 ], [ -91.220748901367188, 43.500831604003906 ], [ -91.060272216796875, 42.752220153808594 ], [ -90.692214965820312, 42.643608093261719 ], [ -90.139724731445312, 41.993049621582031 ], [ -90.355560302734375, 41.584159851074219 ], [ -91.04083251953125, 41.404991149902344 ], [ -90.947494506835938, 40.976654052734375 ], [ -91.410552978515625, 40.566665649414062 ], [ -91.39056396484375, 40.386383056640625 ], [ -91.775009155273438, 40.623603820800781 ], [ -95.761886596679688, 40.600196838378906 ], [ -95.919998168945312, 41.456939697265625 ], [ -96.482772827148438, 42.513053894042969 ] ] ] ] } }
-]
+  "description": {
+    "en": "Iowa basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 42.0919,
+  "longitude": -93.4952,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Iowa basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -96.4828,
+                  42.5131
+                ],
+                [
+                  -96.6397,
+                  42.7394
+                ],
+                [
+                  -96.452,
+                  43.1197
+                ],
+                [
+                  -96.6025,
+                  43.5
+                ],
+                [
+                  -91.2207,
+                  43.5008
+                ],
+                [
+                  -91.0603,
+                  42.7522
+                ],
+                [
+                  -90.6922,
+                  42.6436
+                ],
+                [
+                  -90.1397,
+                  41.993
+                ],
+                [
+                  -90.3556,
+                  41.5842
+                ],
+                [
+                  -91.0408,
+                  41.405
+                ],
+                [
+                  -90.9475,
+                  40.9767
+                ],
+                [
+                  -91.4106,
+                  40.5667
+                ],
+                [
+                  -91.3906,
+                  40.3864
+                ],
+                [
+                  -91.775,
+                  40.6236
+                ],
+                [
+                  -95.7619,
+                  40.6002
+                ],
+                [
+                  -95.92,
+                  41.4569
+                ],
+                [
+                  -96.4828,
+                  42.5131
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,99 @@
 {
-"type": "FeatureCollection",
-"name": "C. American Pacific Is. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -81.595355380000086, 3.996005155634748 ], [ -81.605955380000097, 3.978605155634753 ], [ -81.610855380000089, 4.001705155634752 ], [ -81.595355380000086, 3.996005155634748 ] ] ], [ [ [ -87.048055380000079, 5.520305155634745 ], [ -87.083055380000104, 5.50720515563475 ], [ -87.097455380000099, 5.523305155634745 ], [ -87.052755380000093, 5.560605155634747 ], [ -87.048055380000079, 5.520305155634745 ] ] ], [ [ [ -109.204455380000098, 10.288105155634753 ], [ -109.218055380000095, 10.281105155634748 ], [ -109.236955380000097, 10.302805155634744 ], [ -109.206955380000096, 10.304405155634754 ], [ -109.204455380000098, 10.288105155634753 ] ] ] ] } }
-]
+  "description": {
+    "en": "C. American Pacific Is. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 6.5044,
+  "longitude": -91.7385,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "C. American Pacific Is. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -81.5954,
+                  3.996
+                ],
+                [
+                  -81.606,
+                  3.9786
+                ],
+                [
+                  -81.6109,
+                  4.0017
+                ],
+                [
+                  -81.5954,
+                  3.996
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -87.0481,
+                  5.5203
+                ],
+                [
+                  -87.0831,
+                  5.5072
+                ],
+                [
+                  -87.0975,
+                  5.5233
+                ],
+                [
+                  -87.0528,
+                  5.5606
+                ],
+                [
+                  -87.0481,
+                  5.5203
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -109.2045,
+                  10.2881
+                ],
+                [
+                  -109.2181,
+                  10.2811
+                ],
+                [
+                  -109.237,
+                  10.3028
+                ],
+                [
+                  -109.207,
+                  10.3044
+                ],
+                [
+                  -109.2045,
+                  10.2881
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Macedonia basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 20.821109771728516, 40.908882141113281 ], [ 20.457775115966797, 41.522216796875 ], [ 20.807777404785156, 42.089996337890625 ], [ 22.324443817138672, 42.361381530761719 ], [ 23.03277587890625, 41.72833251953125 ], [ 22.960830688476562, 41.358604431152344 ], [ 22.772220611572266, 41.324440002441406 ], [ 22.729164123535156, 41.144721984863281 ], [ 21.980552673339844, 41.13360595703125 ], [ 21.599998474121094, 40.872772216796875 ], [ 20.821109771728516, 40.908882141113281 ] ] ] ] } }
-]
+  "description": {
+    "en": "Macedonia basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 41.6034,
+  "longitude": 21.7176,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Macedonia basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  20.8211,
+                  40.9089
+                ],
+                [
+                  20.4578,
+                  41.5222
+                ],
+                [
+                  20.8078,
+                  42.09
+                ],
+                [
+                  22.3244,
+                  42.3614
+                ],
+                [
+                  23.0328,
+                  41.7283
+                ],
+                [
+                  22.9608,
+                  41.3586
+                ],
+                [
+                  22.7722,
+                  41.3244
+                ],
+                [
+                  22.7292,
+                  41.1447
+                ],
+                [
+                  21.9806,
+                  41.1336
+                ],
+                [
+                  21.6,
+                  40.8728
+                ],
+                [
+                  20.8211,
+                  40.9089
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

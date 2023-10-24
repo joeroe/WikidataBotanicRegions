@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Marion-Prince Edward Is. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 37.952499389648438, -46.658889770507812 ], [ 37.876106262207031, -46.651390075683594 ], [ 37.856941223144531, -46.626945495605469 ], [ 37.942771911621094, -46.603340148925781 ], [ 37.952499389648438, -46.658889770507812 ] ] ], [ [ [ 37.819999694824219, -46.9697265625 ], [ 37.609161376953125, -46.953895568847656 ], [ 37.576385498046875, -46.909446716308594 ], [ 37.781944274902344, -46.832229614257812 ], [ 37.819999694824219, -46.9697265625 ] ] ] ] } }
-]
+  "description": {
+    "en": "Marion-Prince Edward Is. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": -46.8727,
+  "longitude": 37.7419,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Marion-Prince Edward Is. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  37.9525,
+                  -46.6589
+                ],
+                [
+                  37.8761,
+                  -46.6514
+                ],
+                [
+                  37.8569,
+                  -46.6269
+                ],
+                [
+                  37.9428,
+                  -46.6033
+                ],
+                [
+                  37.9525,
+                  -46.6589
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  37.82,
+                  -46.9697
+                ],
+                [
+                  37.6092,
+                  -46.9539
+                ],
+                [
+                  37.5764,
+                  -46.9094
+                ],
+                [
+                  37.7819,
+                  -46.8322
+                ],
+                [
+                  37.82,
+                  -46.9697
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

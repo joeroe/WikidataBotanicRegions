@@ -1,8 +1,115 @@
 {
-"type": "FeatureCollection",
-"name": "Entre Ríos basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -60.294410705566406, -33.256744384765625 ], [ -60.705833435058594, -32.796394348144531 ], [ -60.648612976074219, -31.735279083251953 ], [ -60.346946716308594, -31.625556945800781 ], [ -59.738334655761719, -30.872779846191406 ], [ -59.576118469238281, -30.588336944580078 ], [ -59.65093994140625, -30.337787628173828 ], [ -58.61639404296875, -30.151390075683594 ], [ -58.244171142578125, -30.237781524658203 ], [ -57.79583740234375, -30.876945495605469 ], [ -58.079170227050781, -31.461391448974609 ], [ -58.032783508300781, -31.775836944580078 ], [ -58.20361328125, -31.891670227050781 ], [ -58.147224426269531, -33.051673889160156 ], [ -58.430282592773438, -33.101394653320312 ], [ -58.549446105957031, -33.660560607910156 ], [ -58.460006713867188, -33.858062744140625 ], [ -58.4482421875, -34.010459899902344 ], [ -59.612266540527344, -33.683090209960938 ], [ -60.294410705566406, -33.256744384765625 ] ] ] ] } }
-]
+  "description": {
+    "en": "Entre Ríos basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -32.0323,
+  "longitude": -59.2075,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Entre Ríos basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -60.2944,
+                  -33.2567
+                ],
+                [
+                  -60.7058,
+                  -32.7964
+                ],
+                [
+                  -60.6486,
+                  -31.7353
+                ],
+                [
+                  -60.3469,
+                  -31.6256
+                ],
+                [
+                  -59.7383,
+                  -30.8728
+                ],
+                [
+                  -59.5761,
+                  -30.5883
+                ],
+                [
+                  -59.6509,
+                  -30.3378
+                ],
+                [
+                  -58.6164,
+                  -30.1514
+                ],
+                [
+                  -58.2442,
+                  -30.2378
+                ],
+                [
+                  -57.7958,
+                  -30.8769
+                ],
+                [
+                  -58.0792,
+                  -31.4614
+                ],
+                [
+                  -58.0328,
+                  -31.7758
+                ],
+                [
+                  -58.2036,
+                  -31.8917
+                ],
+                [
+                  -58.1472,
+                  -33.0517
+                ],
+                [
+                  -58.4303,
+                  -33.1014
+                ],
+                [
+                  -58.5494,
+                  -33.6606
+                ],
+                [
+                  -58.46,
+                  -33.8581
+                ],
+                [
+                  -58.4482,
+                  -34.0105
+                ],
+                [
+                  -59.6123,
+                  -33.6831
+                ],
+                [
+                  -60.2944,
+                  -33.2567
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

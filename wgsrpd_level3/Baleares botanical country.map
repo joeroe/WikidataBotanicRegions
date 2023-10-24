@@ -1,8 +1,131 @@
 {
-"type": "FeatureCollection",
-"name": "Baleares botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 4.276388168334961, 39.806388854980469 ], [ 3.826666355133057, 39.922492980957031 ], [ 3.796944141387939, 40.017219543457031 ], [ 4.174444198608398, 40.050277709960938 ], [ 4.276388168334961, 39.806388854980469 ] ] ], [ [ [ 2.389166355133057, 39.524993896484375 ], [ 2.987777709960938, 39.911109924316406 ], [ 3.480277538299561, 39.721664428710938 ], [ 3.063611030578613, 39.26361083984375 ], [ 2.675277709960938, 39.559440612792969 ], [ 2.389166355133057, 39.524993896484375 ] ] ], [ [ [ 1.371944427490234, 38.830825805664062 ], [ 1.211944341659546, 38.898330688476562 ], [ 1.294166564941406, 39.031387329101562 ], [ 1.600555419921875, 39.096107482910156 ], [ 1.371944427490234, 38.830825805664062 ] ] ], [ [ [ 1.390277624130249, 38.643325805664062 ], [ 1.399166584014893, 38.737777709960938 ], [ 1.588055372238159, 38.667221069335938 ], [ 1.456666469573975, 38.686943054199219 ], [ 1.390277624130249, 38.643325805664062 ] ] ] ] } }
-]
+  "description": {
+    "en": "Baleares botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 39.5857,
+  "longitude": 2.9738,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Baleares botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  4.2764,
+                  39.8064
+                ],
+                [
+                  3.8267,
+                  39.9225
+                ],
+                [
+                  3.7969,
+                  40.0172
+                ],
+                [
+                  4.1744,
+                  40.0503
+                ],
+                [
+                  4.2764,
+                  39.8064
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  2.3892,
+                  39.525
+                ],
+                [
+                  2.9878,
+                  39.9111
+                ],
+                [
+                  3.4803,
+                  39.7217
+                ],
+                [
+                  3.0636,
+                  39.2636
+                ],
+                [
+                  2.6753,
+                  39.5594
+                ],
+                [
+                  2.3892,
+                  39.525
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  1.3719,
+                  38.8308
+                ],
+                [
+                  1.2119,
+                  38.8983
+                ],
+                [
+                  1.2942,
+                  39.0314
+                ],
+                [
+                  1.6006,
+                  39.0961
+                ],
+                [
+                  1.3719,
+                  38.8308
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  1.3903,
+                  38.6433
+                ],
+                [
+                  1.3992,
+                  38.7378
+                ],
+                [
+                  1.5881,
+                  38.6672
+                ],
+                [
+                  1.4567,
+                  38.6869
+                ],
+                [
+                  1.3903,
+                  38.6433
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

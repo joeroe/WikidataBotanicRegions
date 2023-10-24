@@ -1,8 +1,67 @@
 {
-"type": "FeatureCollection",
-"name": "Nevada basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -114.040283203125, 37.003120422363281 ], [ -114.120826721191406, 36.058326721191406 ], [ -114.726387023925781, 36.082771301269531 ], [ -114.621932983398438, 34.992149353027344 ], [ -120.001106262207031, 39.007217407226562 ], [ -120.000839233398438, 41.999435424804688 ], [ -114.041610717773438, 41.999839782714844 ], [ -114.040283203125, 37.003120422363281 ] ] ] ] } }
-]
+  "description": {
+    "en": "Nevada basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 39.3379,
+  "longitude": -116.6608,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Nevada basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -114.0403,
+                  37.0031
+                ],
+                [
+                  -114.1208,
+                  36.0583
+                ],
+                [
+                  -114.7264,
+                  36.0828
+                ],
+                [
+                  -114.6219,
+                  34.9921
+                ],
+                [
+                  -120.0011,
+                  39.0072
+                ],
+                [
+                  -120.0008,
+                  41.9994
+                ],
+                [
+                  -114.0416,
+                  41.9998
+                ],
+                [
+                  -114.0403,
+                  37.0031
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

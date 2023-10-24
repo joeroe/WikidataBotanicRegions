@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Kazan-retto basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 141.309174, 24.748006495117167 ], [ 141.290274, 24.778006495117168 ], [ 141.357474, 24.78890649511716 ], [ 141.360474, 24.769406495117167 ], [ 141.309174, 24.748006495117167 ] ] ], [ [ [ 141.293574, 25.418306495117164 ], [ 141.272174, 25.42390649511718 ], [ 141.268274, 25.44530649511718 ], [ 141.293574, 25.451406495117183 ], [ 141.293574, 25.418306495117164 ] ] ] ] } }
-]
+  "description": {
+    "en": "Kazan-retto basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 24.9563,
+  "longitude": 141.3143,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Kazan-retto basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  141.3092,
+                  24.748
+                ],
+                [
+                  141.2903,
+                  24.778
+                ],
+                [
+                  141.3575,
+                  24.7889
+                ],
+                [
+                  141.3605,
+                  24.7694
+                ],
+                [
+                  141.3092,
+                  24.748
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  141.2936,
+                  25.4183
+                ],
+                [
+                  141.2722,
+                  25.4239
+                ],
+                [
+                  141.2683,
+                  25.4453
+                ],
+                [
+                  141.2936,
+                  25.4514
+                ],
+                [
+                  141.2936,
+                  25.4183
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

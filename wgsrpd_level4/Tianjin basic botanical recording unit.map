@@ -1,8 +1,99 @@
 {
-"type": "FeatureCollection",
-"name": "Tianjin basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 117.356536865234375, 40.256820678710938 ], [ 117.623306274414062, 40.123321533203125 ], [ 117.529426574707031, 39.753608703613281 ], [ 117.707763671875, 39.534164428710938 ], [ 117.905548095703125, 39.559715270996094 ], [ 118.009986877441406, 39.216934204101562 ], [ 117.743873596191406, 39.104995727539062 ], [ 117.545578002929688, 38.616661071777344 ], [ 117.287490844726562, 38.55804443359375 ], [ 116.75054931640625, 38.7752685546875 ], [ 116.681373596191406, 38.952491760253906 ], [ 116.910812377929688, 39.124435424804688 ], [ 116.793441772460938, 39.602096557617188 ], [ 117.173309326171875, 39.629432678222656 ], [ 117.147773742675781, 39.960823059082031 ], [ 117.356536865234375, 40.256820678710938 ] ] ] ] } }
-]
+  "description": {
+    "en": "Tianjin basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 39.2922,
+  "longitude": 117.3265,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Tianjin basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  117.3565,
+                  40.2568
+                ],
+                [
+                  117.6233,
+                  40.1233
+                ],
+                [
+                  117.5294,
+                  39.7536
+                ],
+                [
+                  117.7078,
+                  39.5342
+                ],
+                [
+                  117.9055,
+                  39.5597
+                ],
+                [
+                  118.01,
+                  39.2169
+                ],
+                [
+                  117.7439,
+                  39.105
+                ],
+                [
+                  117.5456,
+                  38.6167
+                ],
+                [
+                  117.2875,
+                  38.558
+                ],
+                [
+                  116.7505,
+                  38.7753
+                ],
+                [
+                  116.6814,
+                  38.9525
+                ],
+                [
+                  116.9108,
+                  39.1244
+                ],
+                [
+                  116.7934,
+                  39.6021
+                ],
+                [
+                  117.1733,
+                  39.6294
+                ],
+                [
+                  117.1478,
+                  39.9608
+                ],
+                [
+                  117.3565,
+                  40.2568
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

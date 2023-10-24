@@ -1,8 +1,135 @@
 {
-"type": "FeatureCollection",
-"name": "Bosnia-Herzegovina basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 17.64984130859375, 42.889076232910156 ], [ 17.261665344238281, 43.459716796875 ], [ 16.143054962158203, 44.199440002441406 ], [ 16.126388549804688, 44.498603820800781 ], [ 15.736944198608398, 44.812492370605469 ], [ 15.823331832885742, 45.205276489257812 ], [ 16.291759490966797, 44.999114990234375 ], [ 16.526386260986328, 45.224441528320312 ], [ 16.913925170898438, 45.265945434570312 ], [ 17.851943969726562, 45.0494384765625 ], [ 18.634162902832031, 45.083328247070312 ], [ 18.861110687255859, 44.858604431152344 ], [ 19.371387481689453, 44.88916015625 ], [ 19.104442596435547, 44.355827331542969 ], [ 19.619720458984375, 44.052215576171875 ], [ 19.237018585205078, 44.011009216308594 ], [ 19.480552673339844, 43.571388244628906 ], [ 18.951663970947266, 43.512496948242188 ], [ 19.072219848632812, 43.248054504394531 ], [ 18.914237976074219, 43.358314514160156 ], [ 18.699996948242188, 43.25555419921875 ], [ 18.480552673339844, 42.964439392089844 ], [ 18.577499389648438, 42.654998779296875 ], [ 18.455554962158203, 42.565826416015625 ], [ 17.64984130859375, 42.889076232910156 ] ] ] ] } }
-]
+  "description": {
+    "en": "Bosnia-Herzegovina basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 44.1629,
+  "longitude": 17.7659,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Bosnia-Herzegovina basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  17.6498,
+                  42.8891
+                ],
+                [
+                  17.2617,
+                  43.4597
+                ],
+                [
+                  16.1431,
+                  44.1994
+                ],
+                [
+                  16.1264,
+                  44.4986
+                ],
+                [
+                  15.7369,
+                  44.8125
+                ],
+                [
+                  15.8233,
+                  45.2053
+                ],
+                [
+                  16.2918,
+                  44.9991
+                ],
+                [
+                  16.5264,
+                  45.2244
+                ],
+                [
+                  16.9139,
+                  45.2659
+                ],
+                [
+                  17.8519,
+                  45.0494
+                ],
+                [
+                  18.6342,
+                  45.0833
+                ],
+                [
+                  18.8611,
+                  44.8586
+                ],
+                [
+                  19.3714,
+                  44.8892
+                ],
+                [
+                  19.1044,
+                  44.3558
+                ],
+                [
+                  19.6197,
+                  44.0522
+                ],
+                [
+                  19.237,
+                  44.011
+                ],
+                [
+                  19.4806,
+                  43.5714
+                ],
+                [
+                  18.9517,
+                  43.5125
+                ],
+                [
+                  19.0722,
+                  43.2481
+                ],
+                [
+                  18.9142,
+                  43.3583
+                ],
+                [
+                  18.7,
+                  43.2556
+                ],
+                [
+                  18.4806,
+                  42.9644
+                ],
+                [
+                  18.5775,
+                  42.655
+                ],
+                [
+                  18.4556,
+                  42.5658
+                ],
+                [
+                  17.6498,
+                  42.8891
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

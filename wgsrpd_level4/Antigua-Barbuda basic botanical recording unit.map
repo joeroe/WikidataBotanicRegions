@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Antigua-Barbuda basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -61.7388916015625, 17.540554046630859 ], [ -61.853057861328125, 17.583053588867188 ], [ -61.85028076171875, 17.722774505615234 ], [ -61.740280151367188, 17.649166107177734 ], [ -61.7388916015625, 17.540554046630859 ] ] ], [ [ [ -61.738059997558594, 16.989719390869141 ], [ -61.885833740234375, 17.028053283691406 ], [ -61.826393127441406, 17.167221069335938 ], [ -61.670280456542969, 17.090274810791016 ], [ -61.738059997558594, 16.989719390869141 ] ] ] ] } }
-]
+  "description": {
+    "en": "Antigua-Barbuda basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 17.287,
+  "longitude": -61.7885,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Antigua-Barbuda basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -61.7389,
+                  17.5406
+                ],
+                [
+                  -61.8531,
+                  17.5831
+                ],
+                [
+                  -61.8503,
+                  17.7228
+                ],
+                [
+                  -61.7403,
+                  17.6492
+                ],
+                [
+                  -61.7389,
+                  17.5406
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -61.7381,
+                  16.9897
+                ],
+                [
+                  -61.8858,
+                  17.0281
+                ],
+                [
+                  -61.8264,
+                  17.1672
+                ],
+                [
+                  -61.6703,
+                  17.0903
+                ],
+                [
+                  -61.7381,
+                  16.9897
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

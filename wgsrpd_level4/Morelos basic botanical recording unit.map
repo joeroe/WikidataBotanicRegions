@@ -1,8 +1,59 @@
 {
-"type": "FeatureCollection",
-"name": "Morelos basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -98.6622314453125, 18.996757507324219 ], [ -98.695281982421875, 18.418331146240234 ], [ -99.050491333007812, 18.370792388916016 ], [ -99.496536254882812, 18.666713714599609 ], [ -99.284866333007812, 19.142436981201172 ], [ -98.6622314453125, 18.996757507324219 ] ] ] ] } }
-]
+  "description": {
+    "en": "Morelos basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 18.7508,
+  "longitude": -99.0385,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Morelos basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -98.6622,
+                  18.9968
+                ],
+                [
+                  -98.6953,
+                  18.4183
+                ],
+                [
+                  -99.0505,
+                  18.3708
+                ],
+                [
+                  -99.4965,
+                  18.6667
+                ],
+                [
+                  -99.2849,
+                  19.1424
+                ],
+                [
+                  -98.6622,
+                  18.9968
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

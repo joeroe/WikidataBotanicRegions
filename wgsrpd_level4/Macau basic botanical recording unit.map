@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Macau basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 113.531661987304688, 22.194736480712891 ], [ 113.536102294921875, 22.211662292480469 ], [ 113.554428100585938, 22.212730407714844 ], [ 113.552467346191406, 22.183052062988281 ], [ 113.531661987304688, 22.194736480712891 ] ] ] ] } }
-]
+  "description": {
+    "en": "Macau basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 22.1999,
+  "longitude": 113.5444,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Macau basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  113.5317,
+                  22.1947
+                ],
+                [
+                  113.5361,
+                  22.2117
+                ],
+                [
+                  113.5544,
+                  22.2127
+                ],
+                [
+                  113.5525,
+                  22.1831
+                ],
+                [
+                  113.5317,
+                  22.1947
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

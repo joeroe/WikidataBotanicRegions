@@ -1,8 +1,127 @@
 {
-"type": "FeatureCollection",
-"name": "Biobío basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -72.781265258789062, -35.960731506347656 ], [ -72.288894653320312, -36.240562438964844 ], [ -72.088699340820312, -36.119552612304688 ], [ -71.299453735351562, -36.533889770507812 ], [ -71.1219482421875, -36.366950988769531 ], [ -71.0164794921875, -36.475914001464844 ], [ -71.18695068359375, -36.848892211914062 ], [ -71.1239013671875, -37.837783813476562 ], [ -71.400283813476562, -37.865280151367188 ], [ -71.4122314453125, -38.155838012695312 ], [ -71.62445068359375, -38.296112060546875 ], [ -71.736679077148438, -38.024444580078125 ], [ -72.061676025390625, -38.017227172851562 ], [ -72.881118774414062, -37.573616027832031 ], [ -73.103897094726562, -37.679725646972656 ], [ -73.003067016601562, -37.737785339355469 ], [ -73.164459228515625, -37.990837097167969 ], [ -73.101394653320312, -38.177780151367188 ], [ -73.360000610351562, -38.390838623046875 ], [ -73.5050048828125, -38.321311950683594 ], [ -73.643341064453125, -37.2086181640625 ], [ -73.198623657226562, -37.15472412109375 ], [ -72.781265258789062, -35.960731506347656 ] ] ] ] } }
-]
+  "description": {
+    "en": "Biobío basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -37.1743,
+  "longitude": -72.2731,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Biobío basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -72.7813,
+                  -35.9607
+                ],
+                [
+                  -72.2889,
+                  -36.2406
+                ],
+                [
+                  -72.0887,
+                  -36.1196
+                ],
+                [
+                  -71.2995,
+                  -36.5339
+                ],
+                [
+                  -71.1219,
+                  -36.367
+                ],
+                [
+                  -71.0165,
+                  -36.4759
+                ],
+                [
+                  -71.187,
+                  -36.8489
+                ],
+                [
+                  -71.1239,
+                  -37.8378
+                ],
+                [
+                  -71.4003,
+                  -37.8653
+                ],
+                [
+                  -71.4122,
+                  -38.1558
+                ],
+                [
+                  -71.6245,
+                  -38.2961
+                ],
+                [
+                  -71.7367,
+                  -38.0244
+                ],
+                [
+                  -72.0617,
+                  -38.0172
+                ],
+                [
+                  -72.8811,
+                  -37.5736
+                ],
+                [
+                  -73.1039,
+                  -37.6797
+                ],
+                [
+                  -73.0031,
+                  -37.7378
+                ],
+                [
+                  -73.1645,
+                  -37.9908
+                ],
+                [
+                  -73.1014,
+                  -38.1778
+                ],
+                [
+                  -73.36,
+                  -38.3908
+                ],
+                [
+                  -73.505,
+                  -38.3213
+                ],
+                [
+                  -73.6433,
+                  -37.2086
+                ],
+                [
+                  -73.1986,
+                  -37.1547
+                ],
+                [
+                  -72.7813,
+                  -35.9607
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

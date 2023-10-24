@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Heard-McDonald Is. botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 73.773880004882812, -53.125030517578125 ], [ 73.474441528320312, -53.194168090820312 ], [ 73.23443603515625, -52.987785339355469 ], [ 73.578887939453125, -53.024444580078125 ], [ 73.773880004882812, -53.125030517578125 ] ] ] ] } }
+]
+}

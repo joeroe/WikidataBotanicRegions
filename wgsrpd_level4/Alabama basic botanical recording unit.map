@@ -1,8 +1,131 @@
 {
-"type": "FeatureCollection",
-"name": "Alabama basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -88.189163208007812, 34.998046875 ], [ -85.623504638671875, 34.999717712402344 ], [ -85.180831909179688, 32.888046264648438 ], [ -84.8941650390625, 32.269439697265625 ], [ -85.14111328125, 31.826107025146484 ], [ -85.004486083984375, 31.001735687255859 ], [ -87.6058349609375, 30.999439239501953 ], [ -87.397232055664062, 30.653606414794922 ], [ -87.465286254882812, 30.357498168945312 ], [ -87.650283813476562, 30.253330230712891 ], [ -88.02362060546875, 30.219440460205078 ], [ -87.756393432617188, 30.285274505615234 ], [ -88.020278930664062, 30.701107025146484 ], [ -88.132766723632812, 30.314441680908203 ], [ -88.402191162109375, 30.387664794921875 ], [ -88.486663818359375, 31.900272369384766 ], [ -88.087509155273438, 34.905548095703125 ], [ -88.189163208007812, 34.998046875 ] ] ], [ [ [ -88.107772827148438, 30.273609161376953 ], [ -88.072509765625, 30.246383666992188 ], [ -88.3125, 30.232772827148438 ], [ -88.131942749023438, 30.256385803222656 ], [ -88.107772827148438, 30.273609161376953 ] ] ] ] } }
-]
+  "description": {
+    "en": "Alabama basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 32.783,
+  "longitude": -86.8273,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Alabama basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -88.1892,
+                  34.998
+                ],
+                [
+                  -85.6235,
+                  34.9997
+                ],
+                [
+                  -85.1808,
+                  32.888
+                ],
+                [
+                  -84.8942,
+                  32.2694
+                ],
+                [
+                  -85.1411,
+                  31.8261
+                ],
+                [
+                  -85.0045,
+                  31.0017
+                ],
+                [
+                  -87.6058,
+                  30.9994
+                ],
+                [
+                  -87.3972,
+                  30.6536
+                ],
+                [
+                  -87.4653,
+                  30.3575
+                ],
+                [
+                  -87.6503,
+                  30.2533
+                ],
+                [
+                  -88.0236,
+                  30.2194
+                ],
+                [
+                  -87.7564,
+                  30.2853
+                ],
+                [
+                  -88.0203,
+                  30.7011
+                ],
+                [
+                  -88.1328,
+                  30.3144
+                ],
+                [
+                  -88.4022,
+                  30.3877
+                ],
+                [
+                  -88.4867,
+                  31.9003
+                ],
+                [
+                  -88.0875,
+                  34.9055
+                ],
+                [
+                  -88.1892,
+                  34.998
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -88.1078,
+                  30.2736
+                ],
+                [
+                  -88.0725,
+                  30.2464
+                ],
+                [
+                  -88.3125,
+                  30.2328
+                ],
+                [
+                  -88.1319,
+                  30.2564
+                ],
+                [
+                  -88.1078,
+                  30.2736
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

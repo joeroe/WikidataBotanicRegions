@@ -1,8 +1,67 @@
 {
-"type": "FeatureCollection",
-"name": "Cabinda basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 13.091388702392578, -4.633055686950684 ], [ 12.565553665161133, -5.025555610656738 ], [ 12.526666641235352, -5.724166870117188 ], [ 12.21455192565918, -5.768555641174316 ], [ 12.017221450805664, -5.034444808959961 ], [ 12.206388473510742, -4.758889198303223 ], [ 12.779047012329102, -4.388991355895996 ], [ 13.091388702392578, -4.633055686950684 ] ] ] ] } }
-]
+  "description": {
+    "en": "Cabinda basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -5.0412,
+  "longitude": 12.4534,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Cabinda basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  13.0914,
+                  -4.6331
+                ],
+                [
+                  12.5656,
+                  -5.0256
+                ],
+                [
+                  12.5267,
+                  -5.7242
+                ],
+                [
+                  12.2146,
+                  -5.7686
+                ],
+                [
+                  12.0172,
+                  -5.0344
+                ],
+                [
+                  12.2064,
+                  -4.7589
+                ],
+                [
+                  12.779,
+                  -4.389
+                ],
+                [
+                  13.0914,
+                  -4.6331
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

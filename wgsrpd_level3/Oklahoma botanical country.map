@@ -1,8 +1,119 @@
 {
-"type": "FeatureCollection",
-"name": "Oklahoma botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -103.000289916992188, 36.5 ], [ -103.000839233398438, 36.999435424804688 ], [ -94.618057250976562, 36.999717712402344 ], [ -94.439987182617188, 35.389434814453125 ], [ -94.48419189453125, 33.647163391113281 ], [ -95.224716186523438, 33.964714050292969 ], [ -96.32305908203125, 33.698326110839844 ], [ -96.947494506835938, 33.956100463867188 ], [ -97.142227172851562, 33.724433898925781 ], [ -97.242218017578125, 33.891937255859375 ], [ -97.428054809570312, 33.819717407226562 ], [ -97.649444580078125, 33.987495422363281 ], [ -97.873046875, 33.85888671875 ], [ -98.167221069335938, 34.127769470214844 ], [ -98.4727783203125, 34.06805419921875 ], [ -99.176666259765625, 34.214996337890625 ], [ -99.3416748046875, 34.437492370605469 ], [ -99.664443969726562, 34.386383056640625 ], [ -100.001106262207031, 34.580825805664062 ], [ -100.000289916992188, 36.499717712402344 ], [ -103.000289916992188, 36.5 ] ] ] ] } }
-]
+  "description": {
+    "en": "Oklahoma botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 35.5829,
+  "longitude": -97.5065,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Oklahoma botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -103.0003,
+                  36.5
+                ],
+                [
+                  -103.0008,
+                  36.9994
+                ],
+                [
+                  -94.6181,
+                  36.9997
+                ],
+                [
+                  -94.44,
+                  35.3894
+                ],
+                [
+                  -94.4842,
+                  33.6472
+                ],
+                [
+                  -95.2247,
+                  33.9647
+                ],
+                [
+                  -96.3231,
+                  33.6983
+                ],
+                [
+                  -96.9475,
+                  33.9561
+                ],
+                [
+                  -97.1422,
+                  33.7244
+                ],
+                [
+                  -97.2422,
+                  33.8919
+                ],
+                [
+                  -97.4281,
+                  33.8197
+                ],
+                [
+                  -97.6494,
+                  33.9875
+                ],
+                [
+                  -97.873,
+                  33.8589
+                ],
+                [
+                  -98.1672,
+                  34.1278
+                ],
+                [
+                  -98.4728,
+                  34.0681
+                ],
+                [
+                  -99.1767,
+                  34.215
+                ],
+                [
+                  -99.3417,
+                  34.4375
+                ],
+                [
+                  -99.6644,
+                  34.3864
+                ],
+                [
+                  -100.0011,
+                  34.5808
+                ],
+                [
+                  -100.0003,
+                  36.4997
+                ],
+                [
+                  -103.0003,
+                  36.5
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Midway Is. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -177.393341064453125, 28.184158325195312 ], [ -177.38616943359375, 28.216384887695312 ], [ -177.3580322265625, 28.219161987304688 ], [ -177.36639404296875, 28.202213287353516 ], [ -177.393341064453125, 28.184158325195312 ] ] ], [ [ [ -177.34222412109375, 28.193885803222656 ], [ -177.3416748046875, 28.196662902832031 ], [ -177.321685791015625, 28.213607788085938 ], [ -177.3175048828125, 28.200828552246094 ], [ -177.34222412109375, 28.193885803222656 ] ] ] ] } }
-]
+  "description": {
+    "en": "Midway Is. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 28.2047,
+  "longitude": -177.3653,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Midway Is. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -177.3933,
+                  28.1842
+                ],
+                [
+                  -177.3862,
+                  28.2164
+                ],
+                [
+                  -177.358,
+                  28.2192
+                ],
+                [
+                  -177.3664,
+                  28.2022
+                ],
+                [
+                  -177.3933,
+                  28.1842
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -177.3422,
+                  28.1939
+                ],
+                [
+                  -177.3417,
+                  28.1967
+                ],
+                [
+                  -177.3217,
+                  28.2136
+                ],
+                [
+                  -177.3175,
+                  28.2008
+                ],
+                [
+                  -177.3422,
+                  28.1939
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

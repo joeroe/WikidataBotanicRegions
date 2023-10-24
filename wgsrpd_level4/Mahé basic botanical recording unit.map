@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Mahé basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 75.543411254882812, 11.739819526672363 ], [ 75.523719787597656, 11.752969741821289 ], [ 75.520523071289062, 11.779159545898438 ], [ 75.536323547363281, 11.776060104370117 ], [ 75.543411254882812, 11.739819526672363 ] ] ] ] } }
-]
+  "description": {
+    "en": "Mahé basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 11.7615,
+  "longitude": 75.5315,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Mahé basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  75.5434,
+                  11.7398
+                ],
+                [
+                  75.5237,
+                  11.753
+                ],
+                [
+                  75.5205,
+                  11.7792
+                ],
+                [
+                  75.5363,
+                  11.7761
+                ],
+                [
+                  75.5434,
+                  11.7398
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

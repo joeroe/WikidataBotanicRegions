@@ -1,8 +1,131 @@
 {
-"type": "FeatureCollection",
-"name": "Northern Ireland basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -6.188333511352539, 55.259719848632812 ], [ -6.234444618225098, 55.2913818359375 ], [ -6.281389236450195, 55.29638671875 ], [ -6.17833423614502, 55.299720764160156 ], [ -6.188333511352539, 55.259719848632812 ] ] ], [ [ [ -6.605834007263184, 54.044441223144531 ], [ -7.025278091430664, 54.416938781738281 ], [ -7.330278396606445, 54.113052368164062 ], [ -7.820555686950684, 54.199165344238281 ], [ -8.171666145324707, 54.463878631591797 ], [ -7.752223014831543, 54.594444274902344 ], [ -7.92750072479248, 54.698883056640625 ], [ -7.55333423614502, 54.762771606445312 ], [ -7.326389312744141, 55.045272827148438 ], [ -6.066667556762695, 55.194442749023438 ], [ -5.688055992126465, 54.806106567382812 ], [ -5.908333778381348, 54.604721069335938 ], [ -5.571666717529297, 54.676383972167969 ], [ -5.461112022399902, 54.385551452636719 ], [ -5.698611259460449, 54.574165344238281 ], [ -5.608333587646484, 54.249717712402344 ], [ -6.043889045715332, 54.031387329101562 ], [ -6.605834007263184, 54.044441223144531 ] ] ] ] } }
-]
+  "description": {
+    "en": "Northern Ireland basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 54.5862,
+  "longitude": -6.6961,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Northern Ireland basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -6.1883,
+                  55.2597
+                ],
+                [
+                  -6.2344,
+                  55.2914
+                ],
+                [
+                  -6.2814,
+                  55.2964
+                ],
+                [
+                  -6.1783,
+                  55.2997
+                ],
+                [
+                  -6.1883,
+                  55.2597
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -6.6058,
+                  54.0444
+                ],
+                [
+                  -7.0253,
+                  54.4169
+                ],
+                [
+                  -7.3303,
+                  54.1131
+                ],
+                [
+                  -7.8206,
+                  54.1992
+                ],
+                [
+                  -8.1717,
+                  54.4639
+                ],
+                [
+                  -7.7522,
+                  54.5944
+                ],
+                [
+                  -7.9275,
+                  54.6989
+                ],
+                [
+                  -7.5533,
+                  54.7628
+                ],
+                [
+                  -7.3264,
+                  55.0453
+                ],
+                [
+                  -6.0667,
+                  55.1944
+                ],
+                [
+                  -5.6881,
+                  54.8061
+                ],
+                [
+                  -5.9083,
+                  54.6047
+                ],
+                [
+                  -5.5717,
+                  54.6764
+                ],
+                [
+                  -5.4611,
+                  54.3856
+                ],
+                [
+                  -5.6986,
+                  54.5742
+                ],
+                [
+                  -5.6083,
+                  54.2497
+                ],
+                [
+                  -6.0439,
+                  54.0314
+                ],
+                [
+                  -6.6058,
+                  54.0444
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

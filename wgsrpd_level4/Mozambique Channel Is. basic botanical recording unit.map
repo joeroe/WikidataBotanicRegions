@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Mozambique Channel Is. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 42.757774, -17.074993504882826 ], [ 42.737474, -17.072793504882824 ], [ 42.721074, -17.055593504882822 ], [ 42.756974, -17.05969350488283 ], [ 42.757774, -17.074993504882826 ] ] ], [ [ [ 47.301374, -11.576693504882826 ], [ 47.279974, -11.573293504882827 ], [ 47.290874, -11.546993504882835 ], [ 47.299974, -11.557793504882824 ], [ 47.301374, -11.576693504882826 ] ] ] ] } }
-]
+  "description": {
+    "en": "Mozambique Channel Is. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -14.489,
+  "longitude": 44.8735,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Mozambique Channel Is. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  42.7578,
+                  -17.075
+                ],
+                [
+                  42.7375,
+                  -17.0728
+                ],
+                [
+                  42.7211,
+                  -17.0556
+                ],
+                [
+                  42.757,
+                  -17.0597
+                ],
+                [
+                  42.7578,
+                  -17.075
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  47.3014,
+                  -11.5767
+                ],
+                [
+                  47.28,
+                  -11.5733
+                ],
+                [
+                  47.2909,
+                  -11.547
+                ],
+                [
+                  47.3,
+                  -11.5578
+                ],
+                [
+                  47.3014,
+                  -11.5767
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

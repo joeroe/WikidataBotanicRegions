@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Swaziland botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 31.813574, -25.958893504882823 ], [ 32.103074, -26.162193504882822 ], [ 31.987474, -27.316093504882829 ], [ 31.161674, -27.20309350488283 ], [ 30.818874, -26.810593504882831 ], [ 30.829474, -26.390793504882822 ], [ 31.320574, -25.755293504882829 ], [ 31.813574, -25.958893504882823 ] ] ] ] } }
+]
+}

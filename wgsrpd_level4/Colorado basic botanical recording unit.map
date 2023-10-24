@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Colorado basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -109.046661376953125, 36.999641418457031 ], [ -109.046493530273438, 40.999717712402344 ], [ -102.0272216796875, 40.999160766601562 ], [ -102.012733459472656, 36.999809265136719 ], [ -109.046661376953125, 36.999641418457031 ] ] ] ] } }
-]
+  "description": {
+    "en": "Colorado basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 38.9989,
+  "longitude": -105.5334,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Colorado basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -109.0467,
+                  36.9996
+                ],
+                [
+                  -109.0465,
+                  40.9997
+                ],
+                [
+                  -102.0272,
+                  40.9992
+                ],
+                [
+                  -102.0127,
+                  36.9998
+                ],
+                [
+                  -109.0467,
+                  36.9996
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

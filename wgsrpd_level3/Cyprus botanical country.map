@@ -1,8 +1,83 @@
 {
-"type": "FeatureCollection",
-"name": "Cyprus botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 34.119974, 35.40080649511718 ], [ 33.900274, 35.198006495117184 ], [ 34.083374, 34.959406495117165 ], [ 33.677474, 34.965506495117168 ], [ 33.030874, 34.562506495117177 ], [ 32.404174, 34.750806495117175 ], [ 32.270274, 35.062506495117177 ], [ 32.882774, 35.162206495117161 ], [ 32.921274, 35.393206495117184 ], [ 33.631674, 35.350306495117181 ], [ 34.590274, 35.690306495117184 ], [ 34.119974, 35.40080649511718 ] ] ] ] } }
-]
+  "description": {
+    "en": "Cyprus botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 35.0502,
+  "longitude": 33.2245,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Cyprus botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  34.12,
+                  35.4008
+                ],
+                [
+                  33.9003,
+                  35.198
+                ],
+                [
+                  34.0834,
+                  34.9594
+                ],
+                [
+                  33.6775,
+                  34.9655
+                ],
+                [
+                  33.0309,
+                  34.5625
+                ],
+                [
+                  32.4042,
+                  34.7508
+                ],
+                [
+                  32.2703,
+                  35.0625
+                ],
+                [
+                  32.8828,
+                  35.1622
+                ],
+                [
+                  32.9213,
+                  35.3932
+                ],
+                [
+                  33.6317,
+                  35.3503
+                ],
+                [
+                  34.5903,
+                  35.6903
+                ],
+                [
+                  34.12,
+                  35.4008
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

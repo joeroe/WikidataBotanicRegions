@@ -1,8 +1,115 @@
 {
-"type": "FeatureCollection",
-"name": "French Guiana basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -52.422226, 4.992506495117169 ], [ -51.998926, 4.647806495117166 ], [ -52.040026, 4.331406495117179 ], [ -51.912226, 4.653306495117178 ], [ -51.794426, 4.605506495117169 ], [ -51.648026, 4.167206495117171 ], [ -52.344926, 3.157406495117172 ], [ -52.594426, 2.473906495117177 ], [ -52.958326, 2.174706495117178 ], [ -53.745026, 2.373906495117168 ], [ -54.104726, 2.113006495117176 ], [ -54.476926, 2.218306495117176 ], [ -54.603826, 2.329206495117177 ], [ -54.200526, 2.781106495117172 ], [ -53.984126, 3.593906495117167 ], [ -54.358026, 4.030306495117173 ], [ -54.476126, 4.867806495117165 ], [ -53.981626, 5.690506495117177 ], [ -52.937826, 5.458306495117171 ], [ -52.422226, 4.992506495117169 ] ] ] ] } }
-]
+  "description": {
+    "en": "French Guiana basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 3.9209,
+  "longitude": -53.2452,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "French Guiana basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -52.4222,
+                  4.9925
+                ],
+                [
+                  -51.9989,
+                  4.6478
+                ],
+                [
+                  -52.04,
+                  4.3314
+                ],
+                [
+                  -51.9122,
+                  4.6533
+                ],
+                [
+                  -51.7944,
+                  4.6055
+                ],
+                [
+                  -51.648,
+                  4.1672
+                ],
+                [
+                  -52.3449,
+                  3.1574
+                ],
+                [
+                  -52.5944,
+                  2.4739
+                ],
+                [
+                  -52.9583,
+                  2.1747
+                ],
+                [
+                  -53.745,
+                  2.3739
+                ],
+                [
+                  -54.1047,
+                  2.113
+                ],
+                [
+                  -54.4769,
+                  2.2183
+                ],
+                [
+                  -54.6038,
+                  2.3292
+                ],
+                [
+                  -54.2005,
+                  2.7811
+                ],
+                [
+                  -53.9841,
+                  3.5939
+                ],
+                [
+                  -54.358,
+                  4.0303
+                ],
+                [
+                  -54.4761,
+                  4.8678
+                ],
+                [
+                  -53.9816,
+                  5.6905
+                ],
+                [
+                  -52.9378,
+                  5.4583
+                ],
+                [
+                  -52.4222,
+                  4.9925
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

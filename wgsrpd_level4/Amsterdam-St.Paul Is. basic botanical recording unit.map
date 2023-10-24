@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Amsterdam-St.Paul Is. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 77.529474, -38.737793504882831 ], [ 77.499674, -38.731093504882821 ], [ 77.506074, -38.703893504882828 ], [ 77.536674, -38.724693504882822 ], [ 77.529474, -38.737793504882831 ] ] ], [ [ [ 77.554174, -37.902793504882823 ], [ 77.509174, -37.888293504882824 ], [ 77.483874, -37.835293504882827 ], [ 77.554474, -37.822493504882829 ], [ 77.554174, -37.902793504882823 ] ] ] ] } }
-]
+  "description": {
+    "en": "Amsterdam-St.Paul Is. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -37.9928,
+  "longitude": 77.5253,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Amsterdam-St.Paul Is. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  77.5295,
+                  -38.7378
+                ],
+                [
+                  77.4997,
+                  -38.7311
+                ],
+                [
+                  77.5061,
+                  -38.7039
+                ],
+                [
+                  77.5367,
+                  -38.7247
+                ],
+                [
+                  77.5295,
+                  -38.7378
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  77.5542,
+                  -37.9028
+                ],
+                [
+                  77.5092,
+                  -37.8883
+                ],
+                [
+                  77.4839,
+                  -37.8353
+                ],
+                [
+                  77.5545,
+                  -37.8225
+                ],
+                [
+                  77.5542,
+                  -37.9028
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,103 @@
 {
-"type": "FeatureCollection",
-"name": "Valparaíso basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.538360595703125, -32.186958312988281 ], [ -70.727508544921875, -32.035835266113281 ], [ -70.24432373046875, -32.309837341308594 ], [ -69.987228393554688, -32.884727478027344 ], [ -70.234176635742188, -33.136390686035156 ], [ -70.751678466796875, -32.925289154052734 ], [ -71.025558471679688, -32.971389770507812 ], [ -71.02166748046875, -33.188339233398438 ], [ -71.358993530273438, -33.449001312255859 ], [ -71.350997924804688, -33.751998901367188 ], [ -71.7239990234375, -33.963001251220703 ], [ -71.870002746582031, -33.933902740478516 ], [ -71.64862060546875, -33.630561828613281 ], [ -71.7569580078125, -33.095558166503906 ], [ -71.568618774414062, -33.01055908203125 ], [ -71.405288696289062, -32.393333435058594 ], [ -71.538360595703125, -32.186958312988281 ] ] ] ] } }
-]
+  "description": {
+    "en": "Valparaíso basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -32.796,
+  "longitude": -70.9737,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Valparaíso basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -71.5384,
+                  -32.187
+                ],
+                [
+                  -70.7275,
+                  -32.0358
+                ],
+                [
+                  -70.2443,
+                  -32.3098
+                ],
+                [
+                  -69.9872,
+                  -32.8847
+                ],
+                [
+                  -70.2342,
+                  -33.1364
+                ],
+                [
+                  -70.7517,
+                  -32.9253
+                ],
+                [
+                  -71.0256,
+                  -32.9714
+                ],
+                [
+                  -71.0217,
+                  -33.1883
+                ],
+                [
+                  -71.359,
+                  -33.449
+                ],
+                [
+                  -71.351,
+                  -33.752
+                ],
+                [
+                  -71.724,
+                  -33.963
+                ],
+                [
+                  -71.87,
+                  -33.9339
+                ],
+                [
+                  -71.6486,
+                  -33.6306
+                ],
+                [
+                  -71.757,
+                  -33.0956
+                ],
+                [
+                  -71.5686,
+                  -33.0106
+                ],
+                [
+                  -71.4053,
+                  -32.3933
+                ],
+                [
+                  -71.5384,
+                  -32.187
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

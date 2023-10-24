@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Easter Is. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -109.241426, -27.133093504882822 ], [ -109.427826, -27.201993504882822 ], [ -109.449126, -27.193093504882825 ], [ -109.390826, -27.066693504882835 ], [ -109.241426, -27.133093504882822 ] ] ], [ [ [ -105.456426, -26.460593504882823 ], [ -105.459426, -26.464693504882831 ], [ -105.474126, -26.45309350488283 ], [ -105.462526, -26.453593504882832 ], [ -105.456426, -26.460593504882823 ] ] ] ] } }
-]
+  "description": {
+    "en": "Easter Is. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": -27.1319,
+  "longitude": -109.336,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Easter Is. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -109.2414,
+                  -27.1331
+                ],
+                [
+                  -109.4278,
+                  -27.202
+                ],
+                [
+                  -109.4491,
+                  -27.1931
+                ],
+                [
+                  -109.3908,
+                  -27.0667
+                ],
+                [
+                  -109.2414,
+                  -27.1331
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -105.4564,
+                  -26.4606
+                ],
+                [
+                  -105.4594,
+                  -26.4647
+                ],
+                [
+                  -105.4741,
+                  -26.4531
+                ],
+                [
+                  -105.4625,
+                  -26.4536
+                ],
+                [
+                  -105.4564,
+                  -26.4606
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

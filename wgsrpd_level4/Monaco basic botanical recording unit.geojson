@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Monaco basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 7.391609191894531, 43.727546691894531 ], [ 7.387777328491211, 43.748603820800781 ], [ 7.432499885559082, 43.7691650390625 ], [ 7.417499542236328, 43.734161376953125 ], [ 7.391609191894531, 43.727546691894531 ] ] ] ] } }
+]
+}

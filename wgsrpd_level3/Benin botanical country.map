@@ -1,8 +1,135 @@
 {
-"type": "FeatureCollection",
-"name": "Benin botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 3.316374, 11.886906495117174 ], [ 3.604474, 11.69330649511717 ], [ 3.474974, 11.429706495117173 ], [ 3.735774, 11.120606495117173 ], [ 3.854974, 10.58500649511717 ], [ 3.581974, 10.275306495117178 ], [ 3.609474, 9.94800649511717 ], [ 3.141674, 9.441106495117168 ], [ 3.094974, 9.090506495117168 ], [ 2.789474, 9.04390649511717 ], [ 2.719574, 6.365506495117174 ], [ 1.635374, 6.218706495117175 ], [ 1.798574, 6.280706495117172 ], [ 1.548474, 6.995206495117174 ], [ 1.617774, 9.049706495117178 ], [ 1.337474, 9.542506495117166 ], [ 1.354974, 9.995306495117177 ], [ 0.776674, 10.376706495117176 ], [ 0.802174, 10.712406495117179 ], [ 1.393374, 11.437206495117167 ], [ 2.004974, 11.418606495117174 ], [ 2.308874, 11.688306495117175 ], [ 2.389474, 12.249706495117167 ], [ 2.838574, 12.396706495117172 ], [ 3.316374, 11.886906495117174 ] ] ] ] } }
-]
+  "description": {
+    "en": "Benin botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 9.6191,
+  "longitude": 2.3389,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Benin botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  3.3164,
+                  11.8869
+                ],
+                [
+                  3.6045,
+                  11.6933
+                ],
+                [
+                  3.475,
+                  11.4297
+                ],
+                [
+                  3.7358,
+                  11.1206
+                ],
+                [
+                  3.855,
+                  10.585
+                ],
+                [
+                  3.582,
+                  10.2753
+                ],
+                [
+                  3.6095,
+                  9.948
+                ],
+                [
+                  3.1417,
+                  9.4411
+                ],
+                [
+                  3.095,
+                  9.0905
+                ],
+                [
+                  2.7895,
+                  9.0439
+                ],
+                [
+                  2.7196,
+                  6.3655
+                ],
+                [
+                  1.6354,
+                  6.2187
+                ],
+                [
+                  1.7986,
+                  6.2807
+                ],
+                [
+                  1.5485,
+                  6.9952
+                ],
+                [
+                  1.6178,
+                  9.0497
+                ],
+                [
+                  1.3375,
+                  9.5425
+                ],
+                [
+                  1.355,
+                  9.9953
+                ],
+                [
+                  0.7767,
+                  10.3767
+                ],
+                [
+                  0.8022,
+                  10.7124
+                ],
+                [
+                  1.3934,
+                  11.4372
+                ],
+                [
+                  2.005,
+                  11.4186
+                ],
+                [
+                  2.3089,
+                  11.6883
+                ],
+                [
+                  2.3895,
+                  12.2497
+                ],
+                [
+                  2.8386,
+                  12.3967
+                ],
+                [
+                  3.3164,
+                  11.8869
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

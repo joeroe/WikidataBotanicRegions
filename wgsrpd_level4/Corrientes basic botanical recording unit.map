@@ -1,8 +1,115 @@
 {
-"type": "FeatureCollection",
-"name": "Corrientes basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -59.65093994140625, -30.337787628173828 ], [ -59.584449768066406, -29.4183349609375 ], [ -59.188339233398438, -29.004722595214844 ], [ -58.775001525878906, -27.408611297607422 ], [ -57.935836791992188, -27.275558471679688 ], [ -56.371116638183594, -27.588336944580078 ], [ -56.158340454101562, -27.316947937011719 ], [ -55.96527099609375, -27.331954956054688 ], [ -55.835838317871094, -27.917224884033203 ], [ -55.626296997070312, -28.141021728515625 ], [ -55.773612976074219, -28.240001678466797 ], [ -55.686393737792969, -28.400279998779297 ], [ -55.891395568847656, -28.367778778076172 ], [ -56.431175231933594, -29.073585510253906 ], [ -57.292984008789062, -29.818889617919922 ], [ -57.887222290039062, -30.521945953369141 ], [ -57.806396484375, -30.748218536376953 ], [ -58.235000610351562, -30.244167327880859 ], [ -58.57305908203125, -30.155834197998047 ], [ -59.65093994140625, -30.337787628173828 ] ] ] ] } }
-]
+  "description": {
+    "en": "Corrientes basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -28.7565,
+  "longitude": -57.787,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Corrientes basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -59.6509,
+                  -30.3378
+                ],
+                [
+                  -59.5844,
+                  -29.4183
+                ],
+                [
+                  -59.1883,
+                  -29.0047
+                ],
+                [
+                  -58.775,
+                  -27.4086
+                ],
+                [
+                  -57.9358,
+                  -27.2756
+                ],
+                [
+                  -56.3711,
+                  -27.5883
+                ],
+                [
+                  -56.1583,
+                  -27.3169
+                ],
+                [
+                  -55.9653,
+                  -27.332
+                ],
+                [
+                  -55.8358,
+                  -27.9172
+                ],
+                [
+                  -55.6263,
+                  -28.141
+                ],
+                [
+                  -55.7736,
+                  -28.24
+                ],
+                [
+                  -55.6864,
+                  -28.4003
+                ],
+                [
+                  -55.8914,
+                  -28.3678
+                ],
+                [
+                  -56.4312,
+                  -29.0736
+                ],
+                [
+                  -57.293,
+                  -29.8189
+                ],
+                [
+                  -57.8872,
+                  -30.5219
+                ],
+                [
+                  -57.8064,
+                  -30.7482
+                ],
+                [
+                  -58.235,
+                  -30.2442
+                ],
+                [
+                  -58.5731,
+                  -30.1558
+                ],
+                [
+                  -59.6509,
+                  -30.3378
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

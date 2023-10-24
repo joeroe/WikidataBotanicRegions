@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Guadalupe I. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -118.304458618164062, 28.917221069335938 ], [ -118.404167175292969, 29.147777557373047 ], [ -118.310012817382812, 29.195274353027344 ], [ -118.23834228515625, 29.030277252197266 ], [ -118.304458618164062, 28.917221069335938 ] ] ] ] } }
-]
+  "description": {
+    "en": "Guadalupe I. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 29.0704,
+  "longitude": -118.3164,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Guadalupe I. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -118.3045,
+                  28.9172
+                ],
+                [
+                  -118.4042,
+                  29.1478
+                ],
+                [
+                  -118.31,
+                  29.1953
+                ],
+                [
+                  -118.2383,
+                  29.0303
+                ],
+                [
+                  -118.3045,
+                  28.9172
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

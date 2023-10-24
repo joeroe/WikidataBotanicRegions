@@ -1,8 +1,59 @@
 {
-"type": "FeatureCollection",
-"name": "Aguascalientes basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -101.846206665039062, 22.011760711669922 ], [ -102.251678466796875, 21.653331756591797 ], [ -102.860572814941406, 21.853885650634766 ], [ -102.635009765625, 22.278331756591797 ], [ -102.3094482421875, 22.463607788085938 ], [ -101.846206665039062, 22.011760711669922 ] ] ] ] } }
-]
+  "description": {
+    "en": "Aguascalientes basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 22.0317,
+  "longitude": -102.3599,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Aguascalientes basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -101.8462,
+                  22.0118
+                ],
+                [
+                  -102.2517,
+                  21.6533
+                ],
+                [
+                  -102.8606,
+                  21.8539
+                ],
+                [
+                  -102.635,
+                  22.2783
+                ],
+                [
+                  -102.3094,
+                  22.4636
+                ],
+                [
+                  -101.8462,
+                  22.0118
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

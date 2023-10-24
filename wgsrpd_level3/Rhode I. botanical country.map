@@ -1,8 +1,111 @@
 {
-"type": "FeatureCollection",
-"name": "Rhode I. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.236541748046875, 41.709236145019531 ], [ -71.39666748046875, 41.808883666992188 ], [ -71.474716186523438, 41.393051147460938 ], [ -71.845794677734375, 41.318824768066406 ], [ -71.80072021484375, 42.010856628417969 ], [ -71.386123657226562, 42.0172119140625 ], [ -71.236541748046875, 41.709236145019531 ] ] ], [ [ [ -71.19598388671875, 41.671257019042969 ], [ -71.1280517578125, 41.510826110839844 ], [ -71.185821533203125, 41.466659545898438 ], [ -71.208053588867188, 41.551658630371094 ], [ -71.19598388671875, 41.671257019042969 ] ] ], [ [ [ -71.220550537109375, 41.633331298828125 ], [ -71.232772827148438, 41.494712829589844 ], [ -71.357772827148438, 41.453880310058594 ], [ -71.2691650390625, 41.624992370605469 ], [ -71.220550537109375, 41.633331298828125 ] ] ] ] } }
-]
+  "description": {
+    "en": "Rhode I. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 41.6916,
+  "longitude": -71.5823,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Rhode I. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -71.2365,
+                  41.7092
+                ],
+                [
+                  -71.3967,
+                  41.8089
+                ],
+                [
+                  -71.4747,
+                  41.3931
+                ],
+                [
+                  -71.8458,
+                  41.3188
+                ],
+                [
+                  -71.8007,
+                  42.0109
+                ],
+                [
+                  -71.3861,
+                  42.0172
+                ],
+                [
+                  -71.2365,
+                  41.7092
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -71.196,
+                  41.6713
+                ],
+                [
+                  -71.1281,
+                  41.5108
+                ],
+                [
+                  -71.1858,
+                  41.4667
+                ],
+                [
+                  -71.2081,
+                  41.5517
+                ],
+                [
+                  -71.196,
+                  41.6713
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -71.2206,
+                  41.6333
+                ],
+                [
+                  -71.2328,
+                  41.4947
+                ],
+                [
+                  -71.3578,
+                  41.4539
+                ],
+                [
+                  -71.2692,
+                  41.625
+                ],
+                [
+                  -71.2206,
+                  41.6333
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,83 @@
 {
-"type": "FeatureCollection",
-"name": "Vermont basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.494155883789062, 45.020545959472656 ], [ -71.639175415039062, 44.744712829589844 ], [ -71.5513916015625, 44.580825805664062 ], [ -72.029998779296875, 44.306938171386719 ], [ -72.397781372070312, 43.542770385742188 ], [ -72.558609008789062, 42.863883972167969 ], [ -72.466537475585938, 42.729103088378906 ], [ -73.253341674804688, 42.751106262207031 ], [ -73.241104125976562, 43.542770385742188 ], [ -73.426666259765625, 43.593048095703125 ], [ -73.352996826171875, 45.009422302246094 ], [ -71.494155883789062, 45.020545959472656 ] ] ] ] } }
-]
+  "description": {
+    "en": "Vermont basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 44.0902,
+  "longitude": -72.6858,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Vermont basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -71.4942,
+                  45.0205
+                ],
+                [
+                  -71.6392,
+                  44.7447
+                ],
+                [
+                  -71.5514,
+                  44.5808
+                ],
+                [
+                  -72.03,
+                  44.3069
+                ],
+                [
+                  -72.3978,
+                  43.5428
+                ],
+                [
+                  -72.5586,
+                  42.8639
+                ],
+                [
+                  -72.4665,
+                  42.7291
+                ],
+                [
+                  -73.2533,
+                  42.7511
+                ],
+                [
+                  -73.2411,
+                  43.5428
+                ],
+                [
+                  -73.4267,
+                  43.593
+                ],
+                [
+                  -73.353,
+                  45.0094
+                ],
+                [
+                  -71.4942,
+                  45.0205
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

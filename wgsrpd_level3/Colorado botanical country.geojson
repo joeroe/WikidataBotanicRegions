@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Colorado botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -109.046661376953125, 36.999641418457031 ], [ -109.046493530273438, 40.999717712402344 ], [ -102.0272216796875, 40.999160766601562 ], [ -102.012733459472656, 36.999809265136719 ], [ -109.046661376953125, 36.999641418457031 ] ] ] ] } }
+]
+}

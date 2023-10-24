@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Macquarie Is. botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 158.879669189453125, -54.753890991210938 ], [ 158.8338623046875, -54.668891906738281 ], [ 158.95745849609375, -54.474716186523438 ], [ 158.945526123046875, -54.576393127441406 ], [ 158.879669189453125, -54.753890991210938 ] ] ] ] } }
+]
+}

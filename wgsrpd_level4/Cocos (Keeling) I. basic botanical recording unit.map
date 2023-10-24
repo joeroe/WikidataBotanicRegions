@@ -1,8 +1,75 @@
 {
-"type": "FeatureCollection",
-"name": "Cocos (Keeling) I. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 96.85247802734375, -12.199443817138672 ], [ 96.819442749023438, -12.178056716918945 ], [ 96.826385498046875, -12.128332138061523 ], [ 96.866928100585938, -12.188055038452148 ], [ 96.85247802734375, -12.199443817138672 ] ] ], [ [ [ 96.902481079101562, -12.19999885559082 ], [ 96.914703369140625, -12.151945114135742 ], [ 96.924423217773438, -12.182777404785156 ], [ 96.902481079101562, -12.19999885559082 ] ] ] ] } }
-]
+  "description": {
+    "en": "Cocos (Keeling) I. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -12.1718,
+  "longitude": 96.8553,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Cocos (Keeling) I. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  96.8525,
+                  -12.1994
+                ],
+                [
+                  96.8194,
+                  -12.1781
+                ],
+                [
+                  96.8264,
+                  -12.1283
+                ],
+                [
+                  96.8669,
+                  -12.1881
+                ],
+                [
+                  96.8525,
+                  -12.1994
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  96.9025,
+                  -12.2
+                ],
+                [
+                  96.9147,
+                  -12.1519
+                ],
+                [
+                  96.9244,
+                  -12.1828
+                ],
+                [
+                  96.9025,
+                  -12.2
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

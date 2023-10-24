@@ -1,8 +1,151 @@
 {
-"type": "FeatureCollection",
-"name": "Kuwait botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 48.362474, 29.450306495117175 ], [ 48.388374, 29.395506495117175 ], [ 48.266974, 29.441106495117182 ], [ 48.283074, 29.468906495117167 ], [ 48.362474, 29.450306495117175 ] ] ], [ [ [ 48.224674, 29.594706495117165 ], [ 48.079974, 29.773306495117183 ], [ 48.152174, 29.991906495117163 ], [ 48.359474, 29.745006495117181 ], [ 48.224674, 29.594706495117165 ] ] ], [ [ [ 48.032174, 29.968006495117166 ], [ 48.037774, 30.011106495117176 ], [ 48.111674, 30.023006495117173 ], [ 48.109974, 30.014706495117181 ], [ 48.032174, 29.968006495117166 ] ] ], [ [ [ 47.931074, 30.018906495117179 ], [ 48.167174, 29.553006495117174 ], [ 47.963374, 29.627806495117184 ], [ 47.707174, 29.375806495117175 ], [ 48.028574, 29.345006495117175 ], [ 48.416574, 28.545306495117174 ], [ 47.688874, 28.53890649511716 ], [ 47.460474, 28.999206495117178 ], [ 46.547174, 29.104706495117185 ], [ 47.169974, 30.015306495117173 ], [ 47.931074, 30.018906495117179 ] ] ] ] } }
-]
+  "description": {
+    "en": "Kuwait botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 29.3293,
+  "longitude": 47.5728,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Kuwait botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  48.3625,
+                  29.4503
+                ],
+                [
+                  48.3884,
+                  29.3955
+                ],
+                [
+                  48.267,
+                  29.4411
+                ],
+                [
+                  48.2831,
+                  29.4689
+                ],
+                [
+                  48.3625,
+                  29.4503
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  48.2247,
+                  29.5947
+                ],
+                [
+                  48.08,
+                  29.7733
+                ],
+                [
+                  48.1522,
+                  29.9919
+                ],
+                [
+                  48.3595,
+                  29.745
+                ],
+                [
+                  48.2247,
+                  29.5947
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  48.0322,
+                  29.968
+                ],
+                [
+                  48.0378,
+                  30.0111
+                ],
+                [
+                  48.1117,
+                  30.023
+                ],
+                [
+                  48.11,
+                  30.0147
+                ],
+                [
+                  48.0322,
+                  29.968
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  47.9311,
+                  30.0189
+                ],
+                [
+                  48.1672,
+                  29.553
+                ],
+                [
+                  47.9634,
+                  29.6278
+                ],
+                [
+                  47.7072,
+                  29.3758
+                ],
+                [
+                  48.0286,
+                  29.345
+                ],
+                [
+                  48.4166,
+                  28.5453
+                ],
+                [
+                  47.6889,
+                  28.5389
+                ],
+                [
+                  47.4605,
+                  28.9992
+                ],
+                [
+                  46.5472,
+                  29.1047
+                ],
+                [
+                  47.17,
+                  30.0153
+                ],
+                [
+                  47.9311,
+                  30.0189
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

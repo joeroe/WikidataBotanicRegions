@@ -1,8 +1,51 @@
 {
-"type": "FeatureCollection",
-"name": "Aves I. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -63.642670660472731, 15.704662290165427 ], [ -63.636717381666742, 15.71061556897142 ], [ -63.633740742263747, 15.692755732553444 ], [ -63.642670660472731, 15.704662290165427 ] ] ] ] } }
-]
+  "description": {
+    "en": "Aves I. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 15.7027,
+  "longitude": -63.6377,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Aves I. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -63.6427,
+                  15.7047
+                ],
+                [
+                  -63.6367,
+                  15.7106
+                ],
+                [
+                  -63.6337,
+                  15.6928
+                ],
+                [
+                  -63.6427,
+                  15.7047
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

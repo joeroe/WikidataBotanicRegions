@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Mauritius botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 57.572474, -20.514193504882826 ], [ 57.304674, -20.449193504882828 ], [ 57.624474, -19.986393504882827 ], [ 57.791974, -20.270793504882832 ], [ 57.572474, -20.514193504882826 ] ] ], [ [ [ 56.565274, -10.393893504882826 ], [ 56.511674, -10.346693504882822 ], [ 56.513574, -10.316693504882835 ], [ 56.518374, -10.317493504882833 ], [ 56.565274, -10.393893504882826 ] ] ] ] } }
-]
+  "description": {
+    "en": "Mauritius botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": -20.2112,
+  "longitude": 57.5597,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Mauritius botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  57.5725,
+                  -20.5142
+                ],
+                [
+                  57.3047,
+                  -20.4492
+                ],
+                [
+                  57.6245,
+                  -19.9864
+                ],
+                [
+                  57.792,
+                  -20.2708
+                ],
+                [
+                  57.5725,
+                  -20.5142
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  56.5653,
+                  -10.3939
+                ],
+                [
+                  56.5117,
+                  -10.3467
+                ],
+                [
+                  56.5136,
+                  -10.3167
+                ],
+                [
+                  56.5184,
+                  -10.3175
+                ],
+                [
+                  56.5653,
+                  -10.3939
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

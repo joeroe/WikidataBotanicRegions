@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Macquarie Is. basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 158.879669189453125, -54.753890991210938 ], [ 158.8338623046875, -54.668891906738281 ], [ 158.95745849609375, -54.474716186523438 ], [ 158.945526123046875, -54.576393127441406 ], [ 158.879669189453125, -54.753890991210938 ] ] ] ] } }
-]
+  "description": {
+    "en": "Macquarie Is. basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -54.6266,
+  "longitude": 158.8974,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Macquarie Is. basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  158.8797,
+                  -54.7539
+                ],
+                [
+                  158.8339,
+                  -54.6689
+                ],
+                [
+                  158.9575,
+                  -54.4747
+                ],
+                [
+                  158.9455,
+                  -54.5764
+                ],
+                [
+                  158.8797,
+                  -54.7539
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,71 @@
 {
-"type": "FeatureCollection",
-"name": "North Dakota basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -104.011077880859375, 45.941970825195312 ], [ -104.033096313476562, 49.000251770019531 ], [ -97.219940185546875, 48.999717712402344 ], [ -97.131103515625, 48.149993896484375 ], [ -96.854995727539062, 47.596656799316406 ], [ -96.79998779296875, 46.650543212890625 ], [ -96.554168701171875, 46.094993591308594 ], [ -96.556320190429688, 45.941658020019531 ], [ -104.011077880859375, 45.941970825195312 ] ] ] ] } }
-]
+  "description": {
+    "en": "North Dakota basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 47.4469,
+  "longitude": -100.4648,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "North Dakota basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -104.0111,
+                  45.942
+                ],
+                [
+                  -104.0331,
+                  49.0003
+                ],
+                [
+                  -97.2199,
+                  48.9997
+                ],
+                [
+                  -97.1311,
+                  48.15
+                ],
+                [
+                  -96.855,
+                  47.5967
+                ],
+                [
+                  -96.8,
+                  46.6505
+                ],
+                [
+                  -96.5542,
+                  46.095
+                ],
+                [
+                  -96.5563,
+                  45.9417
+                ],
+                [
+                  -104.0111,
+                  45.942
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

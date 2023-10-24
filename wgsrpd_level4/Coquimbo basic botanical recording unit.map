@@ -1,8 +1,107 @@
 {
-"type": "FeatureCollection",
-"name": "Coquimbo basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -70.32098388671875, -32.265281677246094 ], [ -70.741958618164062, -32.033340454101562 ], [ -71.538360595703125, -32.186958312988281 ], [ -71.679168701171875, -30.345558166503906 ], [ -71.408889770507812, -30.189723968505859 ], [ -71.287796020507812, -29.896945953369141 ], [ -71.3114013671875, -29.411113739013672 ], [ -71.493408203125, -29.18377685546875 ], [ -70.736679077148438, -29.063892364501953 ], [ -70.295578002929688, -29.678890228271484 ], [ -69.915008544921875, -29.717781066894531 ], [ -69.831680297851562, -30.190555572509766 ], [ -70.211669921875, -30.5594482421875 ], [ -70.295013427734375, -31.02972412109375 ], [ -70.561111450195312, -31.314167022705078 ], [ -70.458892822265625, -31.832500457763672 ], [ -70.234451293945312, -31.942501068115234 ], [ -70.32098388671875, -32.265281677246094 ] ] ] ] } }
-]
+  "description": {
+    "en": "Coquimbo basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -30.6485,
+  "longitude": -70.8737,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Coquimbo basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -70.321,
+                  -32.2653
+                ],
+                [
+                  -70.742,
+                  -32.0333
+                ],
+                [
+                  -71.5384,
+                  -32.187
+                ],
+                [
+                  -71.6792,
+                  -30.3456
+                ],
+                [
+                  -71.4089,
+                  -30.1897
+                ],
+                [
+                  -71.2878,
+                  -29.8969
+                ],
+                [
+                  -71.3114,
+                  -29.4111
+                ],
+                [
+                  -71.4934,
+                  -29.1838
+                ],
+                [
+                  -70.7367,
+                  -29.0639
+                ],
+                [
+                  -70.2956,
+                  -29.6789
+                ],
+                [
+                  -69.915,
+                  -29.7178
+                ],
+                [
+                  -69.8317,
+                  -30.1906
+                ],
+                [
+                  -70.2117,
+                  -30.5594
+                ],
+                [
+                  -70.295,
+                  -31.0297
+                ],
+                [
+                  -70.5611,
+                  -31.3142
+                ],
+                [
+                  -70.4589,
+                  -31.8325
+                ],
+                [
+                  -70.2345,
+                  -31.9425
+                ],
+                [
+                  -70.321,
+                  -32.2653
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

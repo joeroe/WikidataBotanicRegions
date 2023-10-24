@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Andorra basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 1.445833206176758, 42.601943969726562 ], [ 1.556388854980469, 42.656387329101562 ], [ 1.78171968460083, 42.569961547851562 ], [ 1.454722166061401, 42.441665649414062 ], [ 1.445833206176758, 42.601943969726562 ] ] ] ] } }
-]
+  "description": {
+    "en": "Andorra basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 42.5586,
+  "longitude": 1.5706,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Andorra basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  1.4458,
+                  42.6019
+                ],
+                [
+                  1.5564,
+                  42.6564
+                ],
+                [
+                  1.7817,
+                  42.57
+                ],
+                [
+                  1.4547,
+                  42.4417
+                ],
+                [
+                  1.4458,
+                  42.6019
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

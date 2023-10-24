@@ -1,8 +1,71 @@
 {
-"type": "FeatureCollection",
-"name": "Equatorial Guinea botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 10.026074, 2.168006495117169 ], [ 11.339774, 2.168606495117174 ], [ 11.353874, 1.001906495117169 ], [ 9.943874, 0.926106495117168 ], [ 9.844674, 1.079206495117177 ], [ 9.393874, 1.111706495117176 ], [ 9.814174, 1.924706495117178 ], [ 9.772474, 2.324706495117169 ], [ 10.026074, 2.168006495117169 ] ] ] ] } }
-]
+  "description": {
+    "en": "Equatorial Guinea botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 1.557,
+  "longitude": 10.4906,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Equatorial Guinea botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  10.0261,
+                  2.168
+                ],
+                [
+                  11.3398,
+                  2.1686
+                ],
+                [
+                  11.3539,
+                  1.0019
+                ],
+                [
+                  9.9439,
+                  0.9261
+                ],
+                [
+                  9.8447,
+                  1.0792
+                ],
+                [
+                  9.3939,
+                  1.1117
+                ],
+                [
+                  9.8142,
+                  1.9247
+                ],
+                [
+                  9.7725,
+                  2.3247
+                ],
+                [
+                  10.0261,
+                  2.168
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

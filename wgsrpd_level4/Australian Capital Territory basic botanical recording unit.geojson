@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Australian Capital Territory basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 149.042755126953125, -35.92083740234375 ], [ 148.76885986328125, -35.513336181640625 ], [ 149.079681396484375, -35.161666870117188 ], [ 149.40692138671875, -35.328887939453125 ], [ 149.138580322265625, -35.43804931640625 ], [ 149.042755126953125, -35.92083740234375 ] ] ] ] } }
+]
+}

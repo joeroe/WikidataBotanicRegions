@@ -1,8 +1,123 @@
 {
-"type": "FeatureCollection",
-"name": "Uttaranchal basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 77.584195546459483, 30.355527513839235 ], [ 77.821807861328125, 30.507999420166016 ], [ 77.768600463867188, 30.934160232543945 ], [ 77.925071716308594, 31.132440567016602 ], [ 78.315109252929688, 31.262060165405273 ], [ 78.992301940917969, 31.102289199829102 ], [ 78.877655029296875, 31.2916259765625 ], [ 79.086929321289062, 31.439163208007812 ], [ 79.558868408203125, 30.95416259765625 ], [ 79.879150390625, 30.959159851074219 ], [ 80.250274658203125, 30.739994049072266 ], [ 80.207000732421875, 30.575515747070312 ], [ 81.031661987304688, 30.214160919189453 ], [ 80.376922607421875, 29.748603820800781 ], [ 80.287765502929688, 29.205551147460938 ], [ 79.982354982840548, 28.747776899143577 ], [ 78.926496586727595, 29.135370487590102 ], [ 78.712651848274334, 29.295754041430044 ], [ 78.939861882880919, 29.442772299116658 ], [ 78.558950942511061, 29.58310790872661 ], [ 77.970877911764603, 30.217959476009714 ], [ 77.584195546459483, 30.355527513839235 ] ] ] ] } }
-]
+  "description": {
+    "en": "Uttaranchal basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 30.1607,
+  "longitude": 79.2647,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Uttaranchal basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  77.5842,
+                  30.3555
+                ],
+                [
+                  77.8218,
+                  30.508
+                ],
+                [
+                  77.7686,
+                  30.9342
+                ],
+                [
+                  77.9251,
+                  31.1324
+                ],
+                [
+                  78.3151,
+                  31.2621
+                ],
+                [
+                  78.9923,
+                  31.1023
+                ],
+                [
+                  78.8777,
+                  31.2916
+                ],
+                [
+                  79.0869,
+                  31.4392
+                ],
+                [
+                  79.5589,
+                  30.9542
+                ],
+                [
+                  79.8792,
+                  30.9592
+                ],
+                [
+                  80.2503,
+                  30.74
+                ],
+                [
+                  80.207,
+                  30.5755
+                ],
+                [
+                  81.0317,
+                  30.2142
+                ],
+                [
+                  80.3769,
+                  29.7486
+                ],
+                [
+                  80.2878,
+                  29.2056
+                ],
+                [
+                  79.9824,
+                  28.7478
+                ],
+                [
+                  78.9265,
+                  29.1354
+                ],
+                [
+                  78.7127,
+                  29.2958
+                ],
+                [
+                  78.9399,
+                  29.4428
+                ],
+                [
+                  78.559,
+                  29.5831
+                ],
+                [
+                  77.9709,
+                  30.218
+                ],
+                [
+                  77.5842,
+                  30.3555
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,79 @@
 {
-"type": "FeatureCollection",
-"name": "Middle Atlantic Ocean botanical region",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -5.66225538000009, -15.987494844365258 ], [ -5.766355380000078, -16.023294844365253 ], [ -5.793055380000084, -15.994194844365254 ], [ -5.704155380000088, -15.903094844365256 ], [ -5.66225538000009, -15.987494844365258 ] ] ], [ [ [ -14.363855380000103, -7.979694844365255 ], [ -14.41225538000009, -7.974194844365257 ], [ -14.381955380000079, -7.883594844365248 ], [ -14.293055380000084, -7.94529484436525 ], [ -14.363855380000103, -7.979694844365255 ] ] ] ] } }
-]
+  "description": {
+    "en": "Middle Atlantic Ocean botanical region (Level 2) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 4,
+  "latitude": -12.4457,
+  "longitude": -9.5167,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Middle Atlantic Ocean botanical region",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -5.6623,
+                  -15.9875
+                ],
+                [
+                  -5.7664,
+                  -16.0233
+                ],
+                [
+                  -5.7931,
+                  -15.9942
+                ],
+                [
+                  -5.7042,
+                  -15.9031
+                ],
+                [
+                  -5.6623,
+                  -15.9875
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -14.3639,
+                  -7.9797
+                ],
+                [
+                  -14.4123,
+                  -7.9742
+                ],
+                [
+                  -14.382,
+                  -7.8836
+                ],
+                [
+                  -14.2931,
+                  -7.9453
+                ],
+                [
+                  -14.3639,
+                  -7.9797
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

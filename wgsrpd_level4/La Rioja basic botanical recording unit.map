@@ -1,8 +1,123 @@
 {
-"type": "FeatureCollection",
-"name": "La Rioja basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -65.127609252929688, -30.059329986572266 ], [ -65.401947021484375, -30.140277862548828 ], [ -65.767227172851562, -31.061668395996094 ], [ -65.759628295898438, -31.885463714599609 ], [ -66.730484008789062, -31.876579284667969 ], [ -67.04779052734375, -31.528614044189453 ], [ -67.19195556640625, -30.713890075683594 ], [ -68.314178466796875, -29.713336944580078 ], [ -69.019454956054688, -29.6219482421875 ], [ -68.916671752929688, -28.922779083251953 ], [ -69.34112548828125, -28.480278015136719 ], [ -69.655380249023438, -28.400932312011719 ], [ -69.120529174804688, -27.774261474609375 ], [ -68.443344116210938, -27.740001678466797 ], [ -68.436111450195312, -28.007778167724609 ], [ -67.933624267578125, -28.161113739013672 ], [ -67.791397094726562, -28.359447479248047 ], [ -67.510009765625, -28.233333587646484 ], [ -66.543060302734375, -28.449722290039062 ], [ -66.361953735351562, -28.8558349609375 ], [ -65.810836791992188, -29.224166870117188 ], [ -65.127609252929688, -30.059329986572266 ] ] ] ] } }
-]
+  "description": {
+    "en": "La Rioja basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -29.6656,
+  "longitude": -67.1844,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "La Rioja basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -65.1276,
+                  -30.0593
+                ],
+                [
+                  -65.4019,
+                  -30.1403
+                ],
+                [
+                  -65.7672,
+                  -31.0617
+                ],
+                [
+                  -65.7596,
+                  -31.8855
+                ],
+                [
+                  -66.7305,
+                  -31.8766
+                ],
+                [
+                  -67.0478,
+                  -31.5286
+                ],
+                [
+                  -67.192,
+                  -30.7139
+                ],
+                [
+                  -68.3142,
+                  -29.7133
+                ],
+                [
+                  -69.0195,
+                  -29.6219
+                ],
+                [
+                  -68.9167,
+                  -28.9228
+                ],
+                [
+                  -69.3411,
+                  -28.4803
+                ],
+                [
+                  -69.6554,
+                  -28.4009
+                ],
+                [
+                  -69.1205,
+                  -27.7743
+                ],
+                [
+                  -68.4433,
+                  -27.74
+                ],
+                [
+                  -68.4361,
+                  -28.0078
+                ],
+                [
+                  -67.9336,
+                  -28.1611
+                ],
+                [
+                  -67.7914,
+                  -28.3594
+                ],
+                [
+                  -67.51,
+                  -28.2333
+                ],
+                [
+                  -66.5431,
+                  -28.4497
+                ],
+                [
+                  -66.362,
+                  -28.8558
+                ],
+                [
+                  -65.8108,
+                  -29.2242
+                ],
+                [
+                  -65.1276,
+                  -30.0593
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

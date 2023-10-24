@@ -1,8 +1,127 @@
 {
-"type": "FeatureCollection",
-"name": "Phoenix Is. botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -172.187526, -4.531693504882824 ], [ -172.219226, -4.528893504882831 ], [ -172.231426, -4.504493504882831 ], [ -172.196426, -4.491993504882828 ], [ -172.187526, -4.531693504882824 ] ] ], [ [ [ -171.231726, -4.461393504882821 ], [ -171.258926, -4.458593504882828 ], [ -171.264526, -4.446393504882835 ], [ -171.235526, -4.438093504882829 ], [ -171.231726, -4.461393504882821 ] ] ], [ [ [ -171.078026, -3.141693504882824 ], [ -171.089726, -3.137493504882826 ], [ -171.086426, -3.108893504882829 ], [ -171.080826, -3.110293504882833 ], [ -171.078026, -3.141693504882824 ] ] ], [ [ [ -171.627826, -2.832493504882834 ], [ -171.626326, -2.869493504882826 ], [ -171.725626, -2.772793504882827 ], [ -171.694126, -2.76859350488283 ], [ -171.627826, -2.832493504882834 ] ] ] ] } }
-]
+  "description": {
+    "en": "Phoenix Is. botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": -3.4003,
+  "longitude": -171.7178,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Phoenix Is. botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -172.1875,
+                  -4.5317
+                ],
+                [
+                  -172.2192,
+                  -4.5289
+                ],
+                [
+                  -172.2314,
+                  -4.5045
+                ],
+                [
+                  -172.1964,
+                  -4.492
+                ],
+                [
+                  -172.1875,
+                  -4.5317
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -171.2317,
+                  -4.4614
+                ],
+                [
+                  -171.2589,
+                  -4.4586
+                ],
+                [
+                  -171.2645,
+                  -4.4464
+                ],
+                [
+                  -171.2355,
+                  -4.4381
+                ],
+                [
+                  -171.2317,
+                  -4.4614
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -171.078,
+                  -3.1417
+                ],
+                [
+                  -171.0897,
+                  -3.1375
+                ],
+                [
+                  -171.0864,
+                  -3.1089
+                ],
+                [
+                  -171.0808,
+                  -3.1103
+                ],
+                [
+                  -171.078,
+                  -3.1417
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  -171.6278,
+                  -2.8325
+                ],
+                [
+                  -171.6263,
+                  -2.8695
+                ],
+                [
+                  -171.7256,
+                  -2.7728
+                ],
+                [
+                  -171.6941,
+                  -2.7686
+                ],
+                [
+                  -171.6278,
+                  -2.8325
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

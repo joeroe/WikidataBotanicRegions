@@ -1,8 +1,123 @@
 {
-"type": "FeatureCollection",
-"name": "Hainan basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 109.703598022460938, 18.197772979736328 ], [ 108.685531616210938, 18.505275726318359 ], [ 108.690261840820312, 19.381107330322266 ], [ 109.293869018554688, 19.759998321533203 ], [ 109.1644287109375, 19.724437713623047 ], [ 109.286651611328125, 19.916938781738281 ], [ 109.4658203125, 19.828609466552734 ], [ 109.610809326171875, 19.993885040283203 ], [ 110.665542602539062, 20.13360595703125 ], [ 110.924148559570312, 20.007221221923828 ], [ 111.031097412109375, 19.639995574951172 ], [ 110.4803466796875, 19.167201995849609 ], [ 110.525543212890625, 18.800830841064453 ], [ 110.047760009765625, 18.380550384521484 ], [ 109.752212524414062, 18.388050079345703 ], [ 109.703598022460938, 18.197772979736328 ] ] ], [ [ [ 110.517906188964844, 19.140964508056641 ], [ 110.524147033691406, 19.137775421142578 ], [ 110.518600463867188, 19.131938934326172 ], [ 110.510269165039062, 19.139163970947266 ], [ 110.517906188964844, 19.140964508056641 ] ] ] ] } }
-]
+  "description": {
+    "en": "Hainan basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 19.2151,
+  "longitude": 109.7682,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Hainan basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  109.7036,
+                  18.1978
+                ],
+                [
+                  108.6855,
+                  18.5053
+                ],
+                [
+                  108.6903,
+                  19.3811
+                ],
+                [
+                  109.2939,
+                  19.76
+                ],
+                [
+                  109.1644,
+                  19.7244
+                ],
+                [
+                  109.2867,
+                  19.9169
+                ],
+                [
+                  109.4658,
+                  19.8286
+                ],
+                [
+                  109.6108,
+                  19.9939
+                ],
+                [
+                  110.6655,
+                  20.1336
+                ],
+                [
+                  110.9241,
+                  20.0072
+                ],
+                [
+                  111.0311,
+                  19.64
+                ],
+                [
+                  110.4803,
+                  19.1672
+                ],
+                [
+                  110.5255,
+                  18.8008
+                ],
+                [
+                  110.0478,
+                  18.3806
+                ],
+                [
+                  109.7522,
+                  18.3881
+                ],
+                [
+                  109.7036,
+                  18.1978
+                ]
+              ]
+            ],
+            [
+              [
+                [
+                  110.5179,
+                  19.141
+                ],
+                [
+                  110.5241,
+                  19.1378
+                ],
+                [
+                  110.5186,
+                  19.1319
+                ],
+                [
+                  110.5103,
+                  19.1392
+                ],
+                [
+                  110.5179,
+                  19.141
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,111 @@
 {
-"type": "FeatureCollection",
-"name": "Montana basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -104.0372314453125, 45.000350952148438 ], [ -111.050552368164062, 45.0 ], [ -111.053878784179688, 44.496658325195312 ], [ -111.363052368164062, 44.758331298828125 ], [ -111.52362060546875, 44.559715270996094 ], [ -112.925277709960938, 44.419990539550781 ], [ -113.14111328125, 44.776657104492188 ], [ -113.434432983398438, 44.862495422363281 ], [ -113.79833984375, 45.606941223144531 ], [ -113.990829467773438, 45.703605651855469 ], [ -114.306953430175781, 45.477767944335938 ], [ -114.496658325195312, 45.567214965820312 ], [ -114.32501220703125, 46.669158935546875 ], [ -114.897506713867188, 46.833877563476562 ], [ -115.604721069335938, 47.397216796875 ], [ -116.049156188964844, 47.993324279785156 ], [ -116.04833984375, 48.999717712402344 ], [ -104.033096313476562, 49.000251770019531 ], [ -104.0372314453125, 45.000350952148438 ] ] ] ] } }
-]
+  "description": {
+    "en": "Montana basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 47.0356,
+  "longitude": -109.6365,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Montana basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -104.0372,
+                  45.0004
+                ],
+                [
+                  -111.0506,
+                  45
+                ],
+                [
+                  -111.0539,
+                  44.4967
+                ],
+                [
+                  -111.3631,
+                  44.7583
+                ],
+                [
+                  -111.5236,
+                  44.5597
+                ],
+                [
+                  -112.9253,
+                  44.42
+                ],
+                [
+                  -113.1411,
+                  44.7767
+                ],
+                [
+                  -113.4344,
+                  44.8625
+                ],
+                [
+                  -113.7983,
+                  45.6069
+                ],
+                [
+                  -113.9908,
+                  45.7036
+                ],
+                [
+                  -114.307,
+                  45.4778
+                ],
+                [
+                  -114.4967,
+                  45.5672
+                ],
+                [
+                  -114.325,
+                  46.6692
+                ],
+                [
+                  -114.8975,
+                  46.8339
+                ],
+                [
+                  -115.6047,
+                  47.3972
+                ],
+                [
+                  -116.0492,
+                  47.9933
+                ],
+                [
+                  -116.0483,
+                  48.9997
+                ],
+                [
+                  -104.0331,
+                  49.0003
+                ],
+                [
+                  -104.0372,
+                  45.0004
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

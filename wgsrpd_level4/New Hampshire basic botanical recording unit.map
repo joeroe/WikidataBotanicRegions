@@ -1,8 +1,87 @@
 {
-"type": "FeatureCollection",
-"name": "New Hampshire basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.494155883789062, 45.020545959472656 ], [ -71.4244384765625, 45.25 ], [ -71.085128784179688, 45.307708740234375 ], [ -70.979446411132812, 43.397773742675781 ], [ -70.704177856445312, 43.049995422363281 ], [ -71.294723510742188, 42.700271606445312 ], [ -72.466537475585938, 42.729103088378906 ], [ -72.558609008789062, 42.863883972167969 ], [ -72.397781372070312, 43.542770385742188 ], [ -72.029998779296875, 44.306938171386719 ], [ -71.5513916015625, 44.580825805664062 ], [ -71.639175415039062, 44.744712829589844 ], [ -71.494155883789062, 45.020545959472656 ] ] ] ] } }
-]
+  "description": {
+    "en": "New Hampshire basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 43.697,
+  "longitude": -71.6022,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "New Hampshire basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -71.4942,
+                  45.0205
+                ],
+                [
+                  -71.4244,
+                  45.25
+                ],
+                [
+                  -71.0851,
+                  45.3077
+                ],
+                [
+                  -70.9794,
+                  43.3978
+                ],
+                [
+                  -70.7042,
+                  43.05
+                ],
+                [
+                  -71.2947,
+                  42.7003
+                ],
+                [
+                  -72.4665,
+                  42.7291
+                ],
+                [
+                  -72.5586,
+                  42.8639
+                ],
+                [
+                  -72.3978,
+                  43.5428
+                ],
+                [
+                  -72.03,
+                  44.3069
+                ],
+                [
+                  -71.5514,
+                  44.5808
+                ],
+                [
+                  -71.6392,
+                  44.7447
+                ],
+                [
+                  -71.4942,
+                  45.0205
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

@@ -1,8 +1,103 @@
 {
-"type": "FeatureCollection",
-"name": "La Araucania basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -71.682235717773438, -39.567222595214844 ], [ -71.9283447265625, -39.4183349609375 ], [ -72.735000610351562, -39.441947937011719 ], [ -72.85028076171875, -39.289169311523438 ], [ -73.2459716796875, -39.385833740234375 ], [ -73.541122436523438, -38.388893127441406 ], [ -73.101394653320312, -38.177780151367188 ], [ -73.011123657226562, -37.591117858886719 ], [ -71.736679077148438, -38.024444580078125 ], [ -71.630279541015625, -38.298057556152344 ], [ -71.4122314453125, -38.155838012695312 ], [ -71.400283813476562, -37.865280151367188 ], [ -71.1239013671875, -37.837783813476562 ], [ -70.860000610351562, -38.688056945800781 ], [ -71.397506713867188, -38.916114807128906 ], [ -71.493621826171875, -39.602500915527344 ], [ -71.682235717773438, -39.567222595214844 ] ] ] ] } }
-]
+  "description": {
+    "en": "La Araucania basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": -38.6248,
+  "longitude": -72.2551,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "La Araucania basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -71.6822,
+                  -39.5672
+                ],
+                [
+                  -71.9283,
+                  -39.4183
+                ],
+                [
+                  -72.735,
+                  -39.4419
+                ],
+                [
+                  -72.8503,
+                  -39.2892
+                ],
+                [
+                  -73.246,
+                  -39.3858
+                ],
+                [
+                  -73.5411,
+                  -38.3889
+                ],
+                [
+                  -73.1014,
+                  -38.1778
+                ],
+                [
+                  -73.0111,
+                  -37.5911
+                ],
+                [
+                  -71.7367,
+                  -38.0244
+                ],
+                [
+                  -71.6303,
+                  -38.2981
+                ],
+                [
+                  -71.4122,
+                  -38.1558
+                ],
+                [
+                  -71.4003,
+                  -37.8653
+                ],
+                [
+                  -71.1239,
+                  -37.8378
+                ],
+                [
+                  -70.86,
+                  -38.6881
+                ],
+                [
+                  -71.3975,
+                  -38.9161
+                ],
+                [
+                  -71.4936,
+                  -39.6025
+                ],
+                [
+                  -71.6822,
+                  -39.5672
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

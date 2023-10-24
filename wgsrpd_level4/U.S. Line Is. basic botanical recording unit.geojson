@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "U.S. Line Is. basic botanical recording unit",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -160.021148681640625, -0.398055553436279 ], [ -160.03973388671875, -0.395277857780457 ], [ -160.048614501953125, -0.383611142635345 ], [ -160.017791748046875, -0.374722182750702 ], [ -160.021148681640625, -0.398055553436279 ] ] ] ] } }
+]
+}

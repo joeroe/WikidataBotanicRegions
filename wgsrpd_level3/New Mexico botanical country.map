@@ -1,8 +1,75 @@
 {
-"type": "FeatureCollection",
-"name": "New Mexico botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -108.831939697265625, 31.332632064819336 ], [ -109.04736328125, 31.332603454589844 ], [ -109.046661376953125, 36.999641418457031 ], [ -102.950843811035156, 36.999435424804688 ], [ -103.0655517578125, 32.0 ], [ -106.664169311523438, 32.00054931640625 ], [ -106.522880554199219, 31.780754089355469 ], [ -108.2086181640625, 31.783332824707031 ], [ -108.208343505859375, 31.333053588867188 ], [ -108.831939697265625, 31.332632064819336 ] ] ] ] } }
-]
+  "description": {
+    "en": "New Mexico botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": 34.427,
+  "longitude": -106.0898,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "New Mexico botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -108.8319,
+                  31.3326
+                ],
+                [
+                  -109.0474,
+                  31.3326
+                ],
+                [
+                  -109.0467,
+                  36.9996
+                ],
+                [
+                  -102.9508,
+                  36.9994
+                ],
+                [
+                  -103.0656,
+                  32
+                ],
+                [
+                  -106.6642,
+                  32.0005
+                ],
+                [
+                  -106.5229,
+                  31.7808
+                ],
+                [
+                  -108.2086,
+                  31.7833
+                ],
+                [
+                  -108.2083,
+                  31.3331
+                ],
+                [
+                  -108.8319,
+                  31.3326
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

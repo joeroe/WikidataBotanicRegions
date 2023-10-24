@@ -1,8 +1,55 @@
 {
-"type": "FeatureCollection",
-"name": "Barbados basic botanical recording unit",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -59.533058166503906, 13.050554275512695 ], [ -59.628616333007812, 13.103333473205566 ], [ -59.64111328125, 13.331388473510742 ], [ -59.429168701171875, 13.164999008178711 ], [ -59.533058166503906, 13.050554275512695 ] ] ] ] } }
-]
+  "description": {
+    "en": "Barbados basic botanical recording unit (Level 4) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 6,
+  "latitude": 13.1754,
+  "longitude": -59.5569,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Barbados basic botanical recording unit",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  -59.5331,
+                  13.0506
+                ],
+                [
+                  -59.6286,
+                  13.1033
+                ],
+                [
+                  -59.6411,
+                  13.3314
+                ],
+                [
+                  -59.4292,
+                  13.165
+                ],
+                [
+                  -59.5331,
+                  13.0506
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

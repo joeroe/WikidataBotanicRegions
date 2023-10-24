@@ -1,8 +1,103 @@
 {
-"type": "FeatureCollection",
-"name": "Burundi botanical country",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 30.555574, -2.398893504882821 ], [ 30.417474, -2.861993504882832 ], [ 30.843674, -2.97879350488283 ], [ 30.834974, -3.256993504882828 ], [ 30.449174, -3.547193504882827 ], [ 30.026074, -4.269493504882831 ], [ 29.423674, -4.447793504882824 ], [ 29.236374, -3.916093504882824 ], [ 29.237774, -3.058093504882834 ], [ 28.983874, -2.800293504882831 ], [ 29.053574, -2.613593504882829 ], [ 29.328874, -2.653593504882835 ], [ 29.367174, -2.824993504882826 ], [ 29.736374, -2.803593504882826 ], [ 29.907474, -2.693093504882825 ], [ 29.952174, -2.309493504882823 ], [ 30.555574, -2.398893504882821 ] ] ] ] } }
-]
+  "description": {
+    "en": "Burundi botanical country (Level 3) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)"
+  },
+  "sources": "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+  "license": "CC-BY-4.0",
+  "zoom": 5,
+  "latitude": -3.3409,
+  "longitude": 29.8911,
+  "data": {
+    "type": "FeatureCollection",
+    "name": "Burundi botanical country",
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+      }
+    },
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {},
+        "geometry": {
+          "type": "MultiPolygon",
+          "coordinates": [
+            [
+              [
+                [
+                  30.5556,
+                  -2.3989
+                ],
+                [
+                  30.4175,
+                  -2.862
+                ],
+                [
+                  30.8437,
+                  -2.9788
+                ],
+                [
+                  30.835,
+                  -3.257
+                ],
+                [
+                  30.4492,
+                  -3.5472
+                ],
+                [
+                  30.0261,
+                  -4.2695
+                ],
+                [
+                  29.4237,
+                  -4.4478
+                ],
+                [
+                  29.2364,
+                  -3.9161
+                ],
+                [
+                  29.2378,
+                  -3.0581
+                ],
+                [
+                  28.9839,
+                  -2.8003
+                ],
+                [
+                  29.0536,
+                  -2.6136
+                ],
+                [
+                  29.3289,
+                  -2.6536
+                ],
+                [
+                  29.3672,
+                  -2.825
+                ],
+                [
+                  29.7364,
+                  -2.8036
+                ],
+                [
+                  29.9075,
+                  -2.6931
+                ],
+                [
+                  29.9522,
+                  -2.3095
+                ],
+                [
+                  30.5556,
+                  -2.3989
+                ]
+              ]
+            ]
+          ]
+        }
+      }
+    ]
+  }
 }

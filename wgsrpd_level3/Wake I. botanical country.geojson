@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wake I. botanical country",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 166.627593994140625, 19.324577331542969 ], [ 166.657470703125, 19.313610076904297 ], [ 166.6624755859375, 19.284442901611328 ], [ 166.613861083984375, 19.297218322753906 ], [ 166.627593994140625, 19.324577331542969 ] ] ] ] } }
+]
+}
