@@ -1,3 +1,5 @@
+# split_wgsrpd.R
+# Split WGSRPD shapes into individual GeoJSON (.map) files
 library(fs)
 library(glue)
 library(purrr)

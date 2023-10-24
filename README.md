@@ -1,0 +1,1 @@
+Working repository for import of [World Geographical Scheme for Recording Plant Distributions](https://en.wikipedia.org/wiki/World_Geographical_Scheme_for_Recording_Plant_Distributions) (WGSRPD) into WikiData.
