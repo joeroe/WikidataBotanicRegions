@@ -48,7 +48,7 @@ write_commons_map <- function(file, level, zoom = 3) {
 
   map <- list(
     description = list(en = glue("{geojson$name} (Level {level}) according to the World Geographical Scheme for Recording Plant Distributions (WGSRPD)")),
-    sources = "Source: [https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\n*{{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
+    sources = "[https://www.tdwg.org/standards/wgsrpd/ World Geographical Scheme for Recording Plant Distributions (WGSRPD)]\n\nCitation: {{citation|last=Brummitt|first=R. K.|year=2001|title=World Geographic Scheme for Recording Plant Distributions|editon=2nd|publisher=Hunt Institute for Botanical Documentation, Carnegie Mellon University|location=Pittsburg|url=http://rs.tdwg.org/wgsrpd/doc/data/}}.",
     license = "CC-BY-4.0",
     zoom = zoom,
     latitude = centroid[1,"Y"],
